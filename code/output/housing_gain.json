@@ -1,0 +1,39 @@
+{
+  "households_65_plus": 10111003.039122904,
+  "real": {
+    "households_exposed": 1471886.2564879153,
+    "share_of_65_plus": 0.1455727241691737,
+    "adults_pct": 8.949702275209184,
+    "latent_tax": 594264850421.2886,
+    "exposed_only_by_gain": 585677.7864323857,
+    "share_of_exposed_only_by_gain": 0.28464620017422787,
+    "tax_from_gain": 201958504521.02515,
+    "share_of_tax_from_gain": 0.2536455421301439
+  },
+  "nominal": {
+    "households_exposed": 1230028.169526849,
+    "share_of_65_plus": 0.12165243792010073,
+    "adults_pct": 7.651074788604772,
+    "latent_tax": 527560801118.29456,
+    "exposed_only_by_gain": 827535.8733934523,
+    "share_of_exposed_only_by_gain": 0.40219203686069976,
+    "tax_from_gain": 268662553824.01917,
+    "share_of_tax_from_gain": 0.3374210919038964
+  },
+  "actual": {
+    "households_exposed": 2057564.0429203012,
+    "share_of_65_plus": 0.20349751997491122,
+    "adults_pct": 12.28776327515725,
+    "latent_tax": 796223354942.3137
+  },
+  "gain_share_of_home_nominal": 0.7504632072391981,
+  "gain_share_of_home_real": 0.5054087810965211,
+  "coverage": 0.9438253478591487,
+  "assets": {
+    "main_residence": 2249404385553.6387,
+    "other_property": 286768169915.7802,
+    "land": 42791033671.2141,
+    "shares": 75092100476.6904,
+    "main_residence_share": 0.8475347349919287
+  }
+}

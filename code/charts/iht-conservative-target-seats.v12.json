@@ -1,0 +1,1136 @@
+{
+ "title": {
+  "text": "The Conservatives' 75 most winnable seats, in target order (coloured by current holder)",
+  "left": "50%",
+  "textAlign": "center",
+  "top": 8,
+  "textStyle": {
+   "fontSize": 16
+  }
+ },
+ "tooltip": {
+  "trigger": "item"
+ },
+ "_tpaTooltip": {
+  "template": "{name}<br>{y:0.0}% of pensioner households"
+ },
+ "legend": {
+  "show": false
+ },
+ "grid": {
+  "left": 46,
+  "right": 16,
+  "top": 52,
+  "bottom": 32,
+  "containLabel": true
+ },
+ "xAxis": {
+  "type": "category",
+  "data": [
+   "Hendon",
+   "Poole",
+   "North West Cambridgeshire",
+   "Peterborough",
+   "Chelsea and Fulham",
+   "Middlesbrough South and East Cleveland",
+   "Forest of Dean",
+   "Derbyshire Dales",
+   "Sittingbourne and Sheppey",
+   "Ely and East Cambridgeshire",
+   "Uxbridge and South Ruislip",
+   "Stoke-on-Trent South",
+   "Aylesbury",
+   "South West Norfolk",
+   "North East Hampshire",
+   "Ynys M\u00f4n",
+   "North Somerset",
+   "Dunstable and Leighton Buzzard",
+   "Portsmouth North",
+   "Bracknell",
+   "Redditch",
+   "Lichfield",
+   "Earley and Woodley",
+   "Ribble Valley",
+   "Pendle and Clitheroe",
+   "Rother Valley",
+   "North West Leicestershire",
+   "South Dorset",
+   "Suffolk Coastal",
+   "Dartford",
+   "Clwyd North",
+   "Mid Dorset and North Poole",
+   "Reading West and Mid Berkshire",
+   "Tamworth",
+   "Bury St Edmunds and Stowmarket",
+   "Brecon, Radnor and Cwm Tawe",
+   "Eastleigh",
+   "Hyndburn",
+   "North East Derbyshire",
+   "Ashford",
+   "Mid and South Pembrokeshire",
+   "Mid Derbyshire",
+   "Dudley",
+   "South East Cornwall",
+   "North East Hertfordshire",
+   "Southend West and Leigh",
+   "Chatham and Aylesford",
+   "Boston and Skegness",
+   "Lowestoft",
+   "Bexleyheath and Crayford",
+   "North Warwickshire and Bedworth",
+   "Newton Abbot",
+   "Burton and Uttoxeter",
+   "Darlington",
+   "Doncaster East and the Isle of Axholme",
+   "Newbury",
+   "Melksham and Devizes",
+   "Buckingham and Bletchley",
+   "St Austell and Newquay",
+   "Harlow",
+   "Horsham",
+   "North Norfolk",
+   "Cities of London and Westminster",
+   "Gravesham",
+   "South Norfolk",
+   "Kensington and Bayswater",
+   "Chipping Barnet",
+   "Rochester and Strood",
+   "Maidenhead",
+   "Thornbury and Yate",
+   "Stourbridge",
+   "Cannock Chase",
+   "Isle of Wight West",
+   "Bournemouth West",
+   "Banbury",
+   "",
+   "England and Wales"
+  ],
+  "axisTick": {
+   "show": false
+  },
+  "axisLabel": {
+   "interval": 0,
+   "rotate": 90,
+   "fontSize": 9,
+   "color": "#5a6468"
+  }
+ },
+ "yAxis": {
+  "type": "value",
+  "name": "% of pensioner households facing a bill",
+  "nameLocation": "middle",
+  "nameGap": 42,
+  "nameTextStyle": {
+   "fontSize": 11,
+   "color": "#5a6468"
+  },
+  "axisLabel": {
+   "formatter": "{value}%"
+  },
+  "splitLine": {
+   "lineStyle": {
+    "color": "#e6ecec"
+   }
+  }
+ },
+ "series": [
+  {
+   "type": "bar",
+   "data": [
+    {
+     "value": 34.7,
+     "name": "Hendon. Labour majority 15 (0.0%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 30.6,
+     "name": "Poole. Labour majority 18 (0.0%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 19.3,
+     "name": "North West Cambridgeshire. Labour majority 39 (0.1%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 14.7,
+     "name": "Peterborough. Labour majority 118 (0.3%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 43.6,
+     "name": "Chelsea and Fulham. Labour majority 152 (0.3%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Middlesbrough South and East Cleveland. Labour majority 214 (0.6%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 21.4,
+     "name": "Forest of Dean. Labour majority 278 (0.6%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 23.1,
+     "name": "Derbyshire Dales. Labour majority 350 (0.7%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 18.8,
+     "name": "Sittingbourne and Sheppey. Labour majority 355 (0.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 23.6,
+     "name": "Ely and East Cambridgeshire. Liberal Democrat majority 495 (0.9%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 31.9,
+     "name": "Uxbridge and South Ruislip. Labour majority 587 (1.3%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 12.9,
+     "name": "Stoke-on-Trent South. Labour majority 627 (1.5%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 25.2,
+     "name": "Aylesbury. Labour majority 630 (1.3%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 17.6,
+     "name": "South West Norfolk. Labour majority 630 (1.4%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 26.0,
+     "name": "North East Hampshire. Liberal Democrat majority 634 (1.1%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 19.7,
+     "name": "Ynys M\u00f4n. Plaid Cymru majority 637 (2.0%).",
+     "itemStyle": {
+      "color": "#005b54",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 27.6,
+     "name": "North Somerset. Labour majority 639 (1.2%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 14.7,
+     "name": "Dunstable and Leighton Buzzard. Labour majority 667 (1.4%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 18.8,
+     "name": "Portsmouth North. Labour majority 780 (1.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 22.7,
+     "name": "Bracknell. Labour majority 784 (1.8%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 11.6,
+     "name": "Redditch. Labour majority 789 (1.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 15.9,
+     "name": "Lichfield. Labour majority 810 (1.7%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 28.5,
+     "name": "Earley and Woodley. Labour majority 848 (1.8%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 16.0,
+     "name": "Ribble Valley. Labour majority 856 (1.6%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 12.1,
+     "name": "Pendle and Clitheroe. Labour majority 902 (1.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Rother Valley. Labour majority 998 (2.4%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 12.0,
+     "name": "North West Leicestershire. Labour majority 1,012 (2.1%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 21.7,
+     "name": "South Dorset. Labour majority 1,048 (2.1%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 25.8,
+     "name": "Suffolk Coastal. Labour majority 1,070 (2.2%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 19.1,
+     "name": "Dartford. Labour majority 1,192 (2.7%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 12.0,
+     "name": "Clwyd North. Labour majority 1,196 (2.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 24.6,
+     "name": "Mid Dorset and North Poole. Liberal Democrat majority 1,352 (2.7%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 24.4,
+     "name": "Reading West and Mid Berkshire. Labour majority 1,361 (2.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 11.0,
+     "name": "Tamworth. Labour majority 1,382 (3.2%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 21.4,
+     "name": "Bury St Edmunds and Stowmarket. Labour majority 1,452 (2.8%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 15.4,
+     "name": "Brecon, Radnor and Cwm Tawe. Liberal Democrat majority 1,472 (3.2%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 23.0,
+     "name": "Eastleigh. Liberal Democrat majority 1,546 (3.3%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.9,
+     "name": "Hyndburn. Labour majority 1,687 (4.6%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 12.0,
+     "name": "North East Derbyshire. Labour majority 1,753 (3.8%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 22.1,
+     "name": "Ashford. Labour majority 1,779 (3.8%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 15.1,
+     "name": "Mid and South Pembrokeshire. Labour majority 1,878 (4.0%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 12.8,
+     "name": "Mid Derbyshire. Labour majority 1,878 (3.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.8,
+     "name": "Dudley. Labour majority 1,900 (5.3%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 17.3,
+     "name": "South East Cornwall. Labour majority 1,911 (3.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 22.8,
+     "name": "North East Hertfordshire. Labour majority 1,923 (3.7%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 26.1,
+     "name": "Southend West and Leigh. Labour majority 1,949 (4.2%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 19.0,
+     "name": "Chatham and Aylesford. Labour majority 1,998 (4.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 12.5,
+     "name": "Boston and Skegness. Reform UK majority 2,010 (5.0%).",
+     "itemStyle": {
+      "color": "#12b6cf",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 15.7,
+     "name": "Lowestoft. Labour majority 2,016 (4.8%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 27.5,
+     "name": "Bexleyheath and Crayford. Labour majority 2,114 (4.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.8,
+     "name": "North Warwickshire and Bedworth. Labour majority 2,198 (5.4%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 18.3,
+     "name": "Newton Abbot. Liberal Democrat majority 2,246 (4.7%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.8,
+     "name": "Burton and Uttoxeter. Labour majority 2,266 (5.0%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Darlington. Labour majority 2,298 (5.4%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 11.8,
+     "name": "Doncaster East and the Isle of Axholme. Labour majority 2,311 (5.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 30.3,
+     "name": "Newbury. Liberal Democrat majority 2,377 (4.9%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 24.4,
+     "name": "Melksham and Devizes. Liberal Democrat majority 2,401 (4.7%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 18.8,
+     "name": "Buckingham and Bletchley. Labour majority 2,421 (5.1%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 20.7,
+     "name": "St Austell and Newquay. Labour majority 2,470 (5.3%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 15.7,
+     "name": "Harlow. Labour majority 2,504 (5.8%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 30.9,
+     "name": "Horsham. Liberal Democrat majority 2,517 (4.5%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 19.4,
+     "name": "North Norfolk. Liberal Democrat majority 2,585 (5.5%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 46.2,
+     "name": "Cities of London and Westminster. Labour majority 2,708 (6.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 18.2,
+     "name": "Gravesham. Labour majority 2,712 (6.3%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 22.4,
+     "name": "South Norfolk. Labour majority 2,826 (5.7%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 43.9,
+     "name": "Kensington and Bayswater. Labour majority 2,903 (6.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 41.6,
+     "name": "Chipping Barnet. Labour majority 2,914 (5.7%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 19.9,
+     "name": "Rochester and Strood. Labour majority 2,930 (6.9%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 35.3,
+     "name": "Maidenhead. Liberal Democrat majority 2,963 (5.9%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 23.6,
+     "name": "Thornbury and Yate. Liberal Democrat majority 3,014 (5.6%).",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 16.1,
+     "name": "Stourbridge. Labour majority 3,073 (7.7%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.8,
+     "name": "Cannock Chase. Labour majority 3,125 (7.3%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 19.6,
+     "name": "Isle of Wight West. Labour majority 3,177 (9.3%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 24.3,
+     "name": "Bournemouth West. Labour majority 3,224 (8.2%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 23.1,
+     "name": "Banbury. Labour majority 3,256 (6.8%).",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": null,
+     "name": ""
+    },
+    {
+     "value": 20.3,
+     "name": "England and Wales, all 575 constituencies.",
+     "itemStyle": {
+      "color": "#4a5254",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    }
+   ],
+   "barCategoryGap": "18%"
+  }
+ ]
+}

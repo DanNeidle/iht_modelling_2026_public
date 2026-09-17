@@ -1,0 +1,127 @@
+{
+ "title": {
+  "text": "Pensioner households facing\nan inheritance tax bill",
+  "left": "50%",
+  "textAlign": "center",
+  "top": 6,
+  "textStyle": {
+   "fontSize": 15,
+   "lineHeight": 20
+  }
+ },
+ "tooltip": {
+  "trigger": "item"
+ },
+ "_tpaTooltip": {
+  "template": "{name}<br>{y:0,0} households"
+ },
+ "legend": {
+  "show": false
+ },
+ "graphic": [
+  {
+   "type": "group",
+   "left": "center",
+   "bottom": 8,
+   "children": [
+    {
+     "type": "rect",
+     "left": 0,
+     "top": 0,
+     "shape": {
+      "width": 12,
+      "height": 12,
+      "r": 3
+     },
+     "style": {
+      "fill": "#1a606d"
+     }
+    },
+    {
+     "type": "text",
+     "left": 20,
+     "top": -1,
+     "style": {
+      "text": "Only because of house price rises",
+      "fontSize": 12,
+      "fill": "#3d4a4d"
+     }
+    },
+    {
+     "type": "rect",
+     "left": 0,
+     "top": 21,
+     "shape": {
+      "width": 12,
+      "height": 12,
+      "r": 3
+     },
+     "style": {
+      "fill": "#c7d6d8"
+     }
+    },
+    {
+     "type": "text",
+     "left": 20,
+     "top": 20,
+     "style": {
+      "text": "Not just house price rises",
+      "fontSize": 12,
+      "fill": "#3d4a4d"
+     }
+    }
+   ]
+  }
+ ],
+ "series": [
+  {
+   "type": "pie",
+   "percentPrecision": 0,
+   "radius": [
+    "46%",
+    "70%"
+   ],
+   "center": [
+    "50%",
+    "48%"
+   ],
+   "avoidLabelOverlap": false,
+   "itemStyle": {
+    "borderColor": "#fff",
+    "borderWidth": 2
+   },
+   "label": {
+    "show": true,
+    "position": "inside",
+    "formatter": "{d}%",
+    "fontSize": 16,
+    "fontWeight": "bold"
+   },
+   "labelLine": {
+    "show": false
+   },
+   "data": [
+    {
+     "value": 827536,
+     "name": "Only because of house price rises",
+     "itemStyle": {
+      "color": "#1a606d"
+     },
+     "label": {
+      "color": "#ffffff"
+     }
+    },
+    {
+     "value": 1230028,
+     "name": "Not just house price rises",
+     "itemStyle": {
+      "color": "#c7d6d8"
+     },
+     "label": {
+      "color": "#1b3b41"
+     }
+    }
+   ]
+  }
+ ]
+}

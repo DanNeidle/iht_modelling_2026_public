@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pensioner households exposed to inheritance tax | Tax Policy Associates</title>
+<meta name="description" content="Percentage of households with someone aged 65 or over which would face an inheritance tax bill in April 2027, for every constituency in England and Wales.">
+<link rel="icon" sizes="32x32" href="https://taxpolicy.org.uk/wp-content/uploads/2023/02/cropped-logo-emblem-on-blue-32x32.jpg">
+<link rel="icon" sizes="192x192" href="https://taxpolicy.org.uk/wp-content/uploads/2023/02/cropped-logo-emblem-on-blue-192x192.jpg">
+<link rel="apple-touch-icon" href="https://taxpolicy.org.uk/wp-content/uploads/2023/02/cropped-logo-emblem-on-blue-180x180.jpg">
+<!-- Mark the page before it paints, so a standalone view never flashes up at
+     full width before the script has had a chance to run. Reading window.top
+     throws across origins, which means framed. -->
+<script>try{if(window.self===window.top){document.documentElement.className+=" iht-own-page";}}catch(e){}</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<link rel="stylesheet" href="iht-map.v23.css"/>
+<style>
+  /* The page is embedded in an iframe on the article and also works on its own.
+     Heights are given in pixels rather than percentages, because a percentage
+     height inside a frame that sizes itself to its content collapses to
+     nothing. */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                 "Helvetica Neue", Arial, sans-serif;
+    background: #fff;
+    color: #1b1b1b;
+  }
+  #iht-map { margin: 0; }
+  #iht-map #iht-map-canvas { height: 620px; }
+  #iht-map #iht-map-details { max-height: 620px; }
+
+  /* On its own page rather than in the article's frame. The article already
+     constrains the width; on a bare page nothing does, and a map stretched
+     across a 2,500px monitor is unreadable. */
+  .iht-own-page body {
+    background: #f4f7f7;
+    padding: 2rem 1.5rem 2.5rem;
+  }
+
+  .iht-own-page #iht-map {
+    max-width: 1080px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #e2eaea;
+    border-radius: 12px;
+    padding: 1.6rem 1.6rem 1.8rem;
+    box-shadow: 0 10px 30px rgba(12, 23, 67, 0.06);
+  }
+
+  @media (max-width: 860px) {
+    #iht-map #iht-map-canvas { height: 380px; }
+    #iht-map #iht-map-details { max-height: none; }
+    .iht-own-page body { padding: 0.75rem 0.6rem 1.25rem; }
+    .iht-own-page #iht-map { padding: 1rem 0.9rem 1.2rem; border-radius: 8px; }
+  }
+
+  /* Tell a parent page how tall we are, so the frame can size itself. Harmless
+     if nobody is listening. */
+</style>
+</head>
+<body>
+<div id="iht-map" data-geojson="constituencies.v14.json">
+  <div class="iht-map-header">
+    <!-- Only shown when this page is opened on its own, which is what a shared
+         link does. Inside the article the site's own header is already there. -->
+    <a class="iht-map-logo" href="https://taxpolicy.org.uk/inheritance-tax-pensioner-households/">
+      <img src="https://taxpolicy.org.uk/wp-content/assets/logo_full_white_on_blue.jpg"
+           alt="Tax Policy Associates" width="1941" height="668">
+    </a>
+    <div class="iht-map-header-text">
+      <h2>Pensioner households exposed to inheritance tax</h2>
+      <p>Percentage of households with someone aged 65 or over which would face an inheritance tax bill if they, and their spouse, died in April 2027. England and Wales.</p>
+    </div>
+  </div>
+  <div class="iht-map-search-row">
+    <input type="search" id="iht-map-search" autocomplete="off"
+           placeholder="Search a constituency, town or postcode"
+           aria-label="Search a constituency, town or postcode">
+    <button type="button" id="iht-map-share">Share</button>
+    <button type="button" id="iht-map-reset">Reset</button>
+    <div id="iht-map-results" hidden></div>
+  </div>
+  <div class="iht-map-body">
+    <div id="iht-map-canvas"></div>
+    <div id="iht-map-details"></div>
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="iht-map.v31.js"></script>
+<!-- This page does not report its own height. The block that embeds it already
+     sizes the frame from body.scrollHeight, with two pixels of slack. When this
+     page also posted a height, with eight pixels of slack, the two disagreed by
+     six and each resize triggered the other: the frame oscillated between 758
+     and 764 for as long as you kept zooming. -->
+</body>
+</html>

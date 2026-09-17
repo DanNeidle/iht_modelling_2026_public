@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Could inheritance tax win the Conservatives the election?</title>
+<link rel="stylesheet" href="iht-swing.v3.css"/>
+</head>
+<body>
+<div id="iht-swing" data-model="swing-model.v5.json">
+  <h2>Could inheritance tax win the Conservatives the election?</h2>
+
+  <div class="swing-body">
+    <div class="swing-panel swing-controls">
+      <div class="swing-control">
+        <label for="swing-national">
+          Swing to the Conservatives for every other reason
+          <button type="button" class="swing-info" aria-controls="note-national"
+                  aria-expanded="false" aria-label="About this control">i</button>
+          <span class="value" id="swing-national-value">0 pts</span>
+        </label>
+        <input type="range" id="swing-national" min="0" max="20" step="1" value="0">
+        <p class="swing-note" id="note-national" hidden>
+          This is the starting point: the swing to the Conservative Party before
+          the IHT-focused voters start switching.
+        </p>
+      </div>
+
+      <div class="swing-control">
+        <label for="swing-switch">
+          Exposed pensioners who switch to the Conservatives
+          <button type="button" class="swing-info" aria-controls="note-switch"
+                  aria-expanded="false" aria-label="About this control">i</button>
+          <span class="value" id="swing-switch-value">0%</span>
+        </label>
+        <input type="range" id="swing-switch" min="0" max="100" step="1" value="0">
+        <p class="swing-note" id="note-switch" hidden>
+          The model counts the people in each seat whose estates would face a
+          bill, takes off the ones who are voting Conservative already and the
+          ones who aren't voting. The slider then sets the % of those in this
+          group who will vote Conservative if they are impacted by IHT. Their
+          old votes come off the other parties in proportion to how well each
+          did in that seat.
+        </p>
+      </div>
+
+      <div class="swing-control">
+        <label for="swing-newvoters">
+          Exposed pensioners who did not vote in 2024 but vote now
+          <button type="button" class="swing-info" aria-controls="note-newvoters"
+                  aria-expanded="false" aria-label="About this control">i</button>
+          <span class="value" id="swing-newvoters-value">0%</span>
+        </label>
+        <input type="range" id="swing-newvoters" min="0" max="20" step="1" value="0">
+        <p class="swing-note" id="note-newvoters" hidden>
+          About 27% of over-65s did not vote in 2024. This slider sets the % of
+          those who will now vote Conservative if impacted by IHT. The slider
+          stops at 20%, which is twice the largest net shift ever seen: the best
+          any single election has managed is to pull in about a tenth of
+          previous non-voters.
+        </p>
+      </div>
+
+      <div class="swing-control">
+        <label for="swing-threshold">
+          How big the bill has to be, as a share of what the household owns
+          <button type="button" class="swing-info" aria-controls="note-threshold"
+                  aria-expanded="false" aria-label="About this control">i</button>
+          <span class="value" id="swing-threshold-value">2%</span>
+        </label>
+        <input type="range" id="swing-threshold" min="1" max="20" step="1" value="2">
+        <p class="swing-note" id="note-threshold" hidden>
+          Someone is less likely to switch their vote over a small theoretical
+          future tax, so this is how big the potential tax hit has to be before
+          the other two sliders apply to them. It's as a share of what the
+          household owns. At 1% almost every exposed household counts; at 20%
+          you are down to estates over about £2m (because of the effect of the
+          nil rate band).
+        </p>
+      </div>
+
+      <div class="swing-control swing-toggle">
+        <label for="swing-children">
+          <input type="checkbox" id="swing-children">
+          Include children
+          <button type="button" class="swing-info" aria-controls="note-children"
+                  aria-expanded="false" aria-label="About this control">i</button>
+        </label>
+        <p class="swing-note" id="note-children" hidden>
+          When selected, children's votes move with their parents (if they are
+          16+). That makes sense logically, but data limitations mean we have to
+          make the assumption that the children live in the same constituency as
+          their parents. That is clearly a poor-quality assumption, which is why
+          we give you the option of switching this on and off.
+        </p>
+      </div>
+    </div>
+
+    <div class="swing-panel swing-view">
+      <div class="swing-chamber"></div>
+      <p class="swing-result"></p>
+      <div class="swing-chips"></div>
+    </div>
+  </div>
+</div>
+<script src="iht-swing.v3.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+scenario,rules,threshold_gbp,exposed_units_m,adults_in_exposed_units_m,adult_children_m,overlap_children_over_65_m,overlap_step_families_m,affected_adults_m,share_of_gb_adults_pct,multiple_of_hmrc_4pt72_pct,latent_tax_gbn,input
+current,2026-27 (pensions outside the estate),0.0,1.895,2.924,3.333,0.011,0.133,6.112,11.22,2.4,711.3,WAS round 8
+current,2026-27 (pensions outside the estate),10000.0,1.8,2.781,3.173,0.01,0.127,5.818,10.68,2.3,710.9,WAS round 8
+current,2026-27 (pensions outside the estate),100000.0,1.141,1.826,2.026,0.004,0.081,3.768,6.91,1.5,677.3,WAS round 8
+april_2027,2027-28 (pensions inside the estate),0.0,2.058,3.204,3.65,0.012,0.146,6.696,12.29,2.6,796.2,WAS round 8
+april_2027,2027-28 (pensions inside the estate),10000.0,1.955,3.046,3.477,0.011,0.139,6.373,11.7,2.5,795.7,WAS round 8
+april_2027,2027-28 (pensions inside the estate),100000.0,1.259,2.033,2.244,0.004,0.09,4.183,7.68,1.6,759.4,WAS round 8

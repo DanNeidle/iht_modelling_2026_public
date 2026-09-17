@@ -1,0 +1,184 @@
+{
+ "title": {
+  "text": "Inheritance tax exposure by the party holding the seat",
+  "left": "50%",
+  "textAlign": "center",
+  "top": 8,
+  "textStyle": {
+   "fontSize": 16
+  }
+ },
+ "tooltip": {
+  "trigger": "item"
+ },
+ "_tpaTooltip": {
+  "template": "{name}<br>{y:0.0}% of pensioner households"
+ },
+ "legend": {
+  "show": false
+ },
+ "grid": {
+  "left": 46,
+  "right": 16,
+  "top": 52,
+  "bottom": 32,
+  "containLabel": true
+ },
+ "xAxis": {
+  "type": "category",
+  "data": [
+   "Lib Dem\n66 seats",
+   "Green\n4 seats",
+   "Conservative\n116 seats",
+   "Plaid Cymru\n4 seats",
+   "Labour\n372 seats",
+   "Reform\n5 seats",
+   "Independent\n8 seats",
+   "",
+   "England and Wales"
+  ],
+  "axisTick": {
+   "show": false
+  },
+  "axisLabel": {
+   "interval": 0,
+   "fontSize": 11,
+   "color": "#5a6468",
+   "lineHeight": 14
+  }
+ },
+ "yAxis": {
+  "type": "value",
+  "name": "% of pensioner households facing a bill",
+  "nameLocation": "middle",
+  "nameGap": 45,
+  "nameTextStyle": {
+   "fontSize": 11,
+   "color": "#5a6468"
+  },
+  "axisLabel": {
+   "formatter": "{value}%"
+  },
+  "splitLine": {
+   "lineStyle": {
+    "color": "#e6ecec"
+   }
+  }
+ },
+ "series": [
+  {
+   "type": "bar",
+   "data": [
+    {
+     "value": 28.6,
+     "name": "Liberal Democrat, 66 seats.",
+     "itemStyle": {
+      "color": "#faa61a",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 27.4,
+     "name": "Green Party, 4 seats.",
+     "itemStyle": {
+      "color": "#6ab023",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 23.3,
+     "name": "Conservative, 116 seats.",
+     "itemStyle": {
+      "color": "#0087dc",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 17.9,
+     "name": "Plaid Cymru, 4 seats.",
+     "itemStyle": {
+      "color": "#005b54",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 17.6,
+     "name": "Labour, 372 seats.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 15.0,
+     "name": "Reform UK, 5 seats.",
+     "itemStyle": {
+      "color": "#12b6cf",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 12.5,
+     "name": "Independent, 8 seats.",
+     "itemStyle": {
+      "color": "#8d8d8d",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": null,
+     "name": ""
+    },
+    {
+     "value": 20.3,
+     "name": "England and Wales, all 575 constituencies.",
+     "itemStyle": {
+      "color": "#4a5254",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    }
+   ],
+   "barCategoryGap": "40%"
+  }
+ ]
+}

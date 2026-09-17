@@ -1,0 +1,786 @@
+{
+ "title": {
+  "text": "The 50 constituencies least exposed to inheritance tax",
+  "left": "50%",
+  "textAlign": "center",
+  "top": 8,
+  "textStyle": {
+   "fontSize": 16
+  }
+ },
+ "tooltip": {
+  "trigger": "item"
+ },
+ "_tpaTooltip": {
+  "template": "{name}<br>{y:0.0}% of pensioner households"
+ },
+ "legend": {
+  "show": false
+ },
+ "grid": {
+  "left": 46,
+  "right": 16,
+  "top": 52,
+  "bottom": 32,
+  "containLabel": true
+ },
+ "xAxis": {
+  "type": "category",
+  "data": [
+   "Bishop Auckland",
+   "Blaydon and Consett",
+   "Blyth and Ashington",
+   "City of Durham",
+   "Darlington",
+   "Easington",
+   "Gateshead Central and Whickham",
+   "Hartlepool",
+   "Houghton and Sunderland South",
+   "Jarrow and Gateshead East",
+   "Middlesbrough and Thornaby East",
+   "Middlesbrough South and East Cleveland",
+   "Newcastle upon Tyne East and Wallsend",
+   "Newton Aycliffe and Spennymoor",
+   "North Durham",
+   "Redcar",
+   "South Shields",
+   "Stockton North",
+   "Stockton West",
+   "Sunderland Central",
+   "Washington and Gateshead South",
+   "Barnsley North",
+   "Barnsley South",
+   "Bradford East",
+   "Bradford South",
+   "Bradford West",
+   "Dewsbury and Batley",
+   "Doncaster Central",
+   "Doncaster North",
+   "Great Grimsby and Cleethorpes",
+   "Kingston upon Hull East",
+   "Leeds South",
+   "Leeds South West and Morley",
+   "Leeds West and Pudsey",
+   "Normanton and Hemsworth",
+   "Ossett and Denby Dale",
+   "Penistone and Stocksbridge",
+   "Pontefract, Castleford and Knottingley",
+   "Rawmarsh and Conisbrough",
+   "Rother Valley",
+   "Rotherham",
+   "Sheffield Brightside and Hillsborough",
+   "Sheffield Heeley",
+   "Sheffield South East",
+   "Spen Valley",
+   "Cramlington and Killingworth",
+   "Sheffield Central",
+   "York Central",
+   "Halifax",
+   "Aldridge-Brownhills",
+   "",
+   "England and Wales"
+  ],
+  "axisTick": {
+   "show": false
+  },
+  "axisLabel": {
+   "interval": 0,
+   "rotate": 90,
+   "fontSize": 9,
+   "color": "#5a6468"
+  }
+ },
+ "yAxis": {
+  "type": "value",
+  "name": "% of pensioner households facing a bill",
+  "nameLocation": "middle",
+  "nameGap": 42,
+  "nameTextStyle": {
+   "fontSize": 11,
+   "color": "#5a6468"
+  },
+  "axisLabel": {
+   "formatter": "{value}%"
+  },
+  "splitLine": {
+   "lineStyle": {
+    "color": "#e6ecec"
+   }
+  }
+ },
+ "series": [
+  {
+   "type": "bar",
+   "data": [
+    {
+     "value": 9.1,
+     "name": "Bishop Auckland (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Blaydon and Consett (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Blyth and Ashington (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "City of Durham (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Darlington (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Easington (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Gateshead Central and Whickham (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Hartlepool (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Houghton and Sunderland South (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Jarrow and Gateshead East (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Middlesbrough and Thornaby East (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Middlesbrough South and East Cleveland (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Newcastle upon Tyne East and Wallsend (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Newton Aycliffe and Spennymoor (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "North Durham (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Redcar (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "South Shields (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Stockton North (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Stockton West (Conservative). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#0087dc",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Sunderland Central (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 9.1,
+     "name": "Washington and Gateshead South (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Barnsley North (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Barnsley South (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Bradford East (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Bradford South (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Bradford West (Independent). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#8d8d8d",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Dewsbury and Batley (Independent). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#8d8d8d",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Doncaster Central (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Doncaster North (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Great Grimsby and Cleethorpes (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Kingston upon Hull East (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Leeds South (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Leeds South West and Morley (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Leeds West and Pudsey (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Normanton and Hemsworth (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Ossett and Denby Dale (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Penistone and Stocksbridge (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Pontefract, Castleford and Knottingley (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Rawmarsh and Conisbrough (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Rother Valley (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Rotherham (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Sheffield Brightside and Hillsborough (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Sheffield Heeley (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Sheffield South East (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.1,
+     "name": "Spen Valley (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.3,
+     "name": "Cramlington and Killingworth (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.4,
+     "name": "Sheffield Central (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.4,
+     "name": "York Central (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.5,
+     "name": "Halifax (Labour). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#d50000",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": 10.8,
+     "name": "Aldridge-Brownhills (Conservative). Estimated: HMRC withholds the count for this seat because it is small enough to identify somebody.",
+     "itemStyle": {
+      "color": "#0087dc",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    },
+    {
+     "value": null,
+     "name": ""
+    },
+    {
+     "value": 20.3,
+     "name": "England and Wales, all 575 constituencies.",
+     "itemStyle": {
+      "color": "#4a5254",
+      "borderRadius": [
+       3,
+       3,
+       0,
+       0
+      ]
+     }
+    }
+   ],
+   "barCategoryGap": "18%"
+  }
+ ]
+}

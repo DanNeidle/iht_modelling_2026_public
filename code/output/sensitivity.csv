@@ -1,0 +1,20 @@
+scenario,units_liable_m,adults_any_bill_pct,adults_over_10k_pct,adults_over_100k_pct,latent_tax_gbn
+HEADLINE: April 2027 rules,2.058,12.3,11.7,7.7,796
+"Today's rules, pensions outside estates",1.895,11.2,10.7,6.9,711
+Pensions: cohort-shifted DC pots,2.091,12.5,12.0,7.9,827
+No correction for the missing top tail,2.056,12.3,11.7,7.6,620
+Heavier top tail (Pareto alpha 1.5),2.058,12.3,11.7,7.7,904
+Savings and pensions left at survey values,1.845,10.9,10.3,6.5,666
+Possessions uprated with everything else,2.124,12.7,12.1,7.9,798
+Property left at survey values,1.774,10.6,10.1,6.6,649
+No uprating at all,1.547,9.2,8.5,5.3,538
+Physical wealth excluded entirely,1.867,11.2,10.6,7.0,691
+Physical wealth at full replacement cost,2.174,13.0,12.3,8.1,829
+Cohabiting couples given one set of allowances,2.115,12.7,12.1,7.9,809
+"Weights raked per household, not per person",2.119,12.7,12.1,7.9,834
+Multi-generational households excluded,2.108,12.5,11.9,7.8,786
+No business or agricultural property at all,2.048,12.2,11.6,7.6,803
+Business and agricultural property at survey values,2.053,12.3,11.7,7.6,810
+Business values uncapped (no winsorisation),2.058,12.3,11.7,7.7,796
+Only 80% of widows have a transferred band,2.12,12.6,12.0,8.0,807
+All widows have a full transferred band,2.047,12.2,11.6,7.6,793

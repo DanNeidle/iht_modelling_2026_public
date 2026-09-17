@@ -1,0 +1,5046 @@
+{
+ "title": {
+  "text": "Inheritance tax exposure by party",
+  "left": "50%",
+  "textAlign": "center",
+  "top": 8,
+  "textStyle": {
+   "fontSize": 15
+  }
+ },
+ "tooltip": {
+  "trigger": "item"
+ },
+ "_tpaTooltip": {
+  "template": "{name}<br>{y:0.0}% of pensioner households"
+ },
+ "legend": {
+  "show": false
+ },
+ "grid": {
+  "left": 12,
+  "right": 24,
+  "top": 52,
+  "bottom": 34,
+  "containLabel": true
+ },
+ "xAxis": {
+  "type": "value",
+  "min": 5,
+  "max": 55,
+  "interval": 5,
+  "axisLabel": {
+   "formatter": "{value}%",
+   "color": "#5a6468"
+  },
+  "splitLine": {
+   "lineStyle": {
+    "color": "#e9efef",
+    "width": 1
+   }
+  },
+  "axisLine": {
+   "show": false
+  },
+  "axisTick": {
+   "show": false
+  }
+ },
+ "yAxis": {
+  "type": "category",
+  "data": [
+   "Plaid Cymru  (4)",
+   "Green  (4)",
+   "Reform  (5)",
+   "Independent  (8)",
+   "Lib Dem  (66)",
+   "Conservative  (116)",
+   "Labour  (372)"
+  ],
+  "axisLabel": {
+   "fontSize": 12,
+   "color": "#3d4a4d"
+  },
+  "axisLine": {
+   "show": false
+  },
+  "axisTick": {
+   "show": false
+  },
+  "splitLine": {
+   "show": false
+  },
+  "splitArea": {
+   "show": true,
+   "areaStyle": {
+    "color": [
+     "#ffffff",
+     "#f7fafa"
+    ]
+   }
+  }
+ },
+ "series": [
+  {
+   "type": "scatter",
+   "name": "Plaid Cymru",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -12
+   ],
+   "itemStyle": {
+    "color": "#005b54",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      14.0,
+      0
+     ],
+     "name": "Caerfyrddin (Plaid Cymru)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Plaid Cymru",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -8
+   ],
+   "itemStyle": {
+    "color": "#005b54",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      20.8,
+      0
+     ],
+     "name": "Ceredigion Preseli (Plaid Cymru)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Plaid Cymru",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    0
+   ],
+   "itemStyle": {
+    "color": "#005b54",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      19.7,
+      0
+     ],
+     "name": "Ynys M\u00f4n (Plaid Cymru)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Plaid Cymru",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    4
+   ],
+   "itemStyle": {
+    "color": "#005b54",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      17.4,
+      0
+     ],
+     "name": "Dwyfor Meirionnydd (Plaid Cymru)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Green",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -12
+   ],
+   "itemStyle": {
+    "color": "#6ab023",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      40.1,
+      1
+     ],
+     "name": "Brighton Pavilion (Green)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Green",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -8
+   ],
+   "itemStyle": {
+    "color": "#6ab023",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      38.8,
+      1
+     ],
+     "name": "Bristol Central (Green)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Green",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    0
+   ],
+   "itemStyle": {
+    "color": "#6ab023",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      23.9,
+      1
+     ],
+     "name": "North Herefordshire (Green)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Green",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    12
+   ],
+   "itemStyle": {
+    "color": "#6ab023",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      22.2,
+      1
+     ],
+     "name": "Waveney Valley (Green)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Reform",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -4
+   ],
+   "itemStyle": {
+    "color": "#12b6cf",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      17.2,
+      2
+     ],
+     "name": "Clacton (Reform)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Reform",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    0
+   ],
+   "itemStyle": {
+    "color": "#12b6cf",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      12.0,
+      2
+     ],
+     "name": "Ashfield (Reform)"
+    },
+    {
+     "value": [
+      14.7,
+      2
+     ],
+     "name": "Great Yarmouth (Reform)"
+    },
+    {
+     "value": [
+      18.8,
+      2
+     ],
+     "name": "South Basildon and East Thurrock (Reform)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Reform",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    8
+   ],
+   "itemStyle": {
+    "color": "#12b6cf",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      12.5,
+      2
+     ],
+     "name": "Boston and Skegness (Reform)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Independent",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -4
+   ],
+   "itemStyle": {
+    "color": "#8d8d8d",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      10.8,
+      3
+     ],
+     "name": "Birmingham Perry Barr (Independent)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Independent",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    0
+   ],
+   "itemStyle": {
+    "color": "#8d8d8d",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      10.1,
+      3
+     ],
+     "name": "Dewsbury and Batley (Independent)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Independent",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    4
+   ],
+   "itemStyle": {
+    "color": "#8d8d8d",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      10.8,
+      3
+     ],
+     "name": "Birmingham Hall Green and Moseley (Independent)"
+    },
+    {
+     "value": [
+      10.9,
+      3
+     ],
+     "name": "Blackburn (Independent)"
+    },
+    {
+     "value": [
+      10.9,
+      3
+     ],
+     "name": "Chorley (Independent)"
+    },
+    {
+     "value": [
+      28.7,
+      3
+     ],
+     "name": "Islington North (Independent)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Independent",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    8
+   ],
+   "itemStyle": {
+    "color": "#8d8d8d",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      12.0,
+      3
+     ],
+     "name": "Leicester South (Independent)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Independent",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    12
+   ],
+   "itemStyle": {
+    "color": "#8d8d8d",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      10.1,
+      3
+     ],
+     "name": "Bradford West (Independent)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Lib Dem",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -12
+   ],
+   "itemStyle": {
+    "color": "#faa61a",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      19.4,
+      4
+     ],
+     "name": "North Norfolk (Lib Dem)"
+    },
+    {
+     "value": [
+      21.2,
+      4
+     ],
+     "name": "Tiverton and Minehead (Lib Dem)"
+    },
+    {
+     "value": [
+      23.6,
+      4
+     ],
+     "name": "Thornbury and Yate (Lib Dem)"
+    },
+    {
+     "value": [
+      24.6,
+      4
+     ],
+     "name": "Mid Dorset and North Poole (Lib Dem)"
+    },
+    {
+     "value": [
+      25.9,
+      4
+     ],
+     "name": "Mid Sussex (Lib Dem)"
+    },
+    {
+     "value": [
+      30.9,
+      4
+     ],
+     "name": "Horsham (Lib Dem)"
+    },
+    {
+     "value": [
+      33.8,
+      4
+     ],
+     "name": "Chichester (Lib Dem)"
+    },
+    {
+     "value": [
+      38.9,
+      4
+     ],
+     "name": "Oxford West and Abingdon (Lib Dem)"
+    },
+    {
+     "value": [
+      47.2,
+      4
+     ],
+     "name": "Twickenham (Lib Dem)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Lib Dem",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -8
+   ],
+   "itemStyle": {
+    "color": "#faa61a",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      19.9,
+      4
+     ],
+     "name": "North Cornwall (Lib Dem)"
+    },
+    {
+     "value": [
+      23.0,
+      4
+     ],
+     "name": "Eastleigh (Lib Dem)"
+    },
+    {
+     "value": [
+      23.2,
+      4
+     ],
+     "name": "Chippenham (Lib Dem)"
+    },
+    {
+     "value": [
+      24.0,
+      4
+     ],
+     "name": "Frome and East Somerset (Lib Dem)"
+    },
+    {
+     "value": [
+      24.4,
+      4
+     ],
+     "name": "Melksham and Devizes (Lib Dem)"
+    },
+    {
+     "value": [
+      27.3,
+      4
+     ],
+     "name": "Carshalton and Wallington (Lib Dem)"
+    },
+    {
+     "value": [
+      28.4,
+      4
+     ],
+     "name": "Stratford-on-Avon (Lib Dem)"
+    },
+    {
+     "value": [
+      28.5,
+      4
+     ],
+     "name": "Bicester and Woodstock (Lib Dem)"
+    },
+    {
+     "value": [
+      30.3,
+      4
+     ],
+     "name": "Didcot and Wantage (Lib Dem)"
+    },
+    {
+     "value": [
+      32.5,
+      4
+     ],
+     "name": "Cheltenham (Lib Dem)"
+    },
+    {
+     "value": [
+      44.4,
+      4
+     ],
+     "name": "St Albans (Lib Dem)"
+    },
+    {
+     "value": [
+      49.8,
+      4
+     ],
+     "name": "Esher and Walton (Lib Dem)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Lib Dem",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -4
+   ],
+   "itemStyle": {
+    "color": "#faa61a",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      21.6,
+      4
+     ],
+     "name": "Harrogate and Knaresborough (Lib Dem)"
+    },
+    {
+     "value": [
+      26.5,
+      4
+     ],
+     "name": "Eastbourne (Lib Dem)"
+    },
+    {
+     "value": [
+      27.3,
+      4
+     ],
+     "name": "Chelmsford (Lib Dem)"
+    },
+    {
+     "value": [
+      35.6,
+      4
+     ],
+     "name": "Henley and Thame (Lib Dem)"
+    },
+    {
+     "value": [
+      37.0,
+      4
+     ],
+     "name": "Woking (Lib Dem)"
+    },
+    {
+     "value": [
+      50.9,
+      4
+     ],
+     "name": "Richmond Park (Lib Dem)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Lib Dem",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    0
+   ],
+   "itemStyle": {
+    "color": "#faa61a",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      15.4,
+      4
+     ],
+     "name": "Brecon, Radnor and Cwm Tawe (Lib Dem)"
+    },
+    {
+     "value": [
+      16.8,
+      4
+     ],
+     "name": "North Shropshire (Lib Dem)"
+    },
+    {
+     "value": [
+      20.1,
+      4
+     ],
+     "name": "Yeovil (Lib Dem)"
+    },
+    {
+     "value": [
+      21.3,
+      4
+     ],
+     "name": "North Devon (Lib Dem)"
+    },
+    {
+     "value": [
+      23.4,
+      4
+     ],
+     "name": "Torbay (Lib Dem)"
+    },
+    {
+     "value": [
+      26.0,
+      4
+     ],
+     "name": "North East Hampshire (Lib Dem)"
+    },
+    {
+     "value": [
+      27.9,
+      4
+     ],
+     "name": "Wokingham (Lib Dem)"
+    },
+    {
+     "value": [
+      28.9,
+      4
+     ],
+     "name": "West Dorset (Lib Dem)"
+    },
+    {
+     "value": [
+      30.3,
+      4
+     ],
+     "name": "Newbury (Lib Dem)"
+    },
+    {
+     "value": [
+      35.3,
+      4
+     ],
+     "name": "Maidenhead (Lib Dem)"
+    },
+    {
+     "value": [
+      36.4,
+      4
+     ],
+     "name": "Tunbridge Wells (Lib Dem)"
+    },
+    {
+     "value": [
+      40.6,
+      4
+     ],
+     "name": "Harpenden and Berkhamsted (Lib Dem)"
+    },
+    {
+     "value": [
+      42.3,
+      4
+     ],
+     "name": "Dorking and Horley (Lib Dem)"
+    },
+    {
+     "value": [
+      43.7,
+      4
+     ],
+     "name": "Chesham and Amersham (Lib Dem)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Lib Dem",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    4
+   ],
+   "itemStyle": {
+    "color": "#faa61a",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      23.2,
+      4
+     ],
+     "name": "Cheadle (Lib Dem)"
+    },
+    {
+     "value": [
+      24.0,
+      4
+     ],
+     "name": "South Devon (Lib Dem)"
+    },
+    {
+     "value": [
+      24.1,
+      4
+     ],
+     "name": "Westmorland and Lonsdale (Lib Dem)"
+    },
+    {
+     "value": [
+      28.8,
+      4
+     ],
+     "name": "Witney (Lib Dem)"
+    },
+    {
+     "value": [
+      29.0,
+      4
+     ],
+     "name": "South Cambridgeshire (Lib Dem)"
+    },
+    {
+     "value": [
+      38.3,
+      4
+     ],
+     "name": "Sutton and Cheam (Lib Dem)"
+    },
+    {
+     "value": [
+      41.6,
+      4
+     ],
+     "name": "Kingston and Surbiton (Lib Dem)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Lib Dem",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    8
+   ],
+   "itemStyle": {
+    "color": "#faa61a",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      18.3,
+      4
+     ],
+     "name": "Newton Abbot (Lib Dem)"
+    },
+    {
+     "value": [
+      19.4,
+      4
+     ],
+     "name": "Hazel Grove (Lib Dem)"
+    },
+    {
+     "value": [
+      21.5,
+      4
+     ],
+     "name": "Tewkesbury (Lib Dem)"
+    },
+    {
+     "value": [
+      21.7,
+      4
+     ],
+     "name": "St Ives (Lib Dem)"
+    },
+    {
+     "value": [
+      22.2,
+      4
+     ],
+     "name": "Wells and Mendip Hills (Lib Dem)"
+    },
+    {
+     "value": [
+      23.7,
+      4
+     ],
+     "name": "Honiton and Sidmouth (Lib Dem)"
+    },
+    {
+     "value": [
+      27.5,
+      4
+     ],
+     "name": "South Cotswolds (Lib Dem)"
+    },
+    {
+     "value": [
+      29.6,
+      4
+     ],
+     "name": "Lewes (Lib Dem)"
+    },
+    {
+     "value": [
+      32.0,
+      4
+     ],
+     "name": "Surrey Heath (Lib Dem)"
+    },
+    {
+     "value": [
+      33.2,
+      4
+     ],
+     "name": "Winchester (Lib Dem)"
+    },
+    {
+     "value": [
+      35.8,
+      4
+     ],
+     "name": "Bath (Lib Dem)"
+    },
+    {
+     "value": [
+      42.7,
+      4
+     ],
+     "name": "Epsom and Ewell (Lib Dem)"
+    },
+    {
+     "value": [
+      51.7,
+      4
+     ],
+     "name": "Wimbledon (Lib Dem)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Lib Dem",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    12
+   ],
+   "itemStyle": {
+    "color": "#faa61a",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      22.2,
+      4
+     ],
+     "name": "Glastonbury and Somerton (Lib Dem)"
+    },
+    {
+     "value": [
+      23.0,
+      4
+     ],
+     "name": "Taunton and Wellington (Lib Dem)"
+    },
+    {
+     "value": [
+      23.6,
+      4
+     ],
+     "name": "Ely and East Cambridgeshire (Lib Dem)"
+    },
+    {
+     "value": [
+      24.9,
+      4
+     ],
+     "name": "St Neots and Mid Cambridgeshire (Lib Dem)"
+    },
+    {
+     "value": [
+      40.2,
+      4
+     ],
+     "name": "Guildford (Lib Dem)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Conservative",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -12
+   ],
+   "itemStyle": {
+    "color": "#0087dc",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      11.3,
+      5
+     ],
+     "name": "The Wrekin (Conservative)"
+    },
+    {
+     "value": [
+      11.6,
+      5
+     ],
+     "name": "Staffordshire Moorlands (Conservative)"
+    },
+    {
+     "value": [
+      16.1,
+      5
+     ],
+     "name": "South Leicestershire (Conservative)"
+    },
+    {
+     "value": [
+      16.2,
+      5
+     ],
+     "name": "Mid Norfolk (Conservative)"
+    },
+    {
+     "value": [
+      16.4,
+      5
+     ],
+     "name": "Goole and Pocklington (Conservative)"
+    },
+    {
+     "value": [
+      17.0,
+      5
+     ],
+     "name": "Newark (Conservative)"
+    },
+    {
+     "value": [
+      17.4,
+      5
+     ],
+     "name": "Gosport (Conservative)"
+    },
+    {
+     "value": [
+      18.4,
+      5
+     ],
+     "name": "South West Devon (Conservative)"
+    },
+    {
+     "value": [
+      18.7,
+      5
+     ],
+     "name": "North Bedfordshire (Conservative)"
+    },
+    {
+     "value": [
+      19.5,
+      5
+     ],
+     "name": "Basildon and Billericay (Conservative)"
+    },
+    {
+     "value": [
+      21.1,
+      5
+     ],
+     "name": "South Shropshire (Conservative)"
+    },
+    {
+     "value": [
+      21.2,
+      5
+     ],
+     "name": "Richmond and Northallerton (Conservative)"
+    },
+    {
+     "value": [
+      22.1,
+      5
+     ],
+     "name": "Hereford and South Herefordshire (Conservative)"
+    },
+    {
+     "value": [
+      22.5,
+      5
+     ],
+     "name": "Thirsk and Malton (Conservative)"
+    },
+    {
+     "value": [
+      24.3,
+      5
+     ],
+     "name": "Bromsgrove (Conservative)"
+    },
+    {
+     "value": [
+      25.3,
+      5
+     ],
+     "name": "Bexhill and Battle (Conservative)"
+    },
+    {
+     "value": [
+      26.9,
+      5
+     ],
+     "name": "Salisbury (Conservative)"
+    },
+    {
+     "value": [
+      27.2,
+      5
+     ],
+     "name": "Sutton Coldfield (Conservative)"
+    },
+    {
+     "value": [
+      27.8,
+      5
+     ],
+     "name": "East Grinstead and Uckfield (Conservative)"
+    },
+    {
+     "value": [
+      28.3,
+      5
+     ],
+     "name": "Sussex Weald (Conservative)"
+    },
+    {
+     "value": [
+      28.7,
+      5
+     ],
+     "name": "Exmouth and Exeter East (Conservative)"
+    },
+    {
+     "value": [
+      29.0,
+      5
+     ],
+     "name": "Harrow East (Conservative)"
+    },
+    {
+     "value": [
+      37.3,
+      5
+     ],
+     "name": "South West Hertfordshire (Conservative)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Conservative",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -8
+   ],
+   "itemStyle": {
+    "color": "#0087dc",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      9.1,
+      5
+     ],
+     "name": "Stockton West (Conservative)"
+    },
+    {
+     "value": [
+      12.0,
+      5
+     ],
+     "name": "Gainsborough (Conservative)"
+    },
+    {
+     "value": [
+      13.0,
+      5
+     ],
+     "name": "North East Cambridgeshire (Conservative)"
+    },
+    {
+     "value": [
+      16.1,
+      5
+     ],
+     "name": "Bridlington and The Wolds (Conservative)"
+    },
+    {
+     "value": [
+      17.7,
+      5
+     ],
+     "name": "Sleaford and North Hykeham (Conservative)"
+    },
+    {
+     "value": [
+      18.1,
+      5
+     ],
+     "name": "South Northamptonshire (Conservative)"
+    },
+    {
+     "value": [
+      18.2,
+      5
+     ],
+     "name": "Castle Point (Conservative)"
+    },
+    {
+     "value": [
+      19.4,
+      5
+     ],
+     "name": "Grantham and Bourne (Conservative)"
+    },
+    {
+     "value": [
+      19.6,
+      5
+     ],
+     "name": "Harborough, Oadby and Wigston (Conservative)"
+    },
+    {
+     "value": [
+      20.6,
+      5
+     ],
+     "name": "Torridge and Tavistock (Conservative)"
+    },
+    {
+     "value": [
+      21.4,
+      5
+     ],
+     "name": "Mid Bedfordshire (Conservative)"
+    },
+    {
+     "value": [
+      21.6,
+      5
+     ],
+     "name": "Bridgwater (Conservative)"
+    },
+    {
+     "value": [
+      22.2,
+      5
+     ],
+     "name": "Daventry (Conservative)"
+    },
+    {
+     "value": [
+      22.6,
+      5
+     ],
+     "name": "Skipton and Ripon (Conservative)"
+    },
+    {
+     "value": [
+      25.3,
+      5
+     ],
+     "name": "Broxbourne (Conservative)"
+    },
+    {
+     "value": [
+      25.7,
+      5
+     ],
+     "name": "Solihull West and Shirley (Conservative)"
+    },
+    {
+     "value": [
+      26.7,
+      5
+     ],
+     "name": "Hornchurch and Upminster (Conservative)"
+    },
+    {
+     "value": [
+      27.2,
+      5
+     ],
+     "name": "North Cotswolds (Conservative)"
+    },
+    {
+     "value": [
+      27.6,
+      5
+     ],
+     "name": "Kenilworth and Southam (Conservative)"
+    },
+    {
+     "value": [
+      29.1,
+      5
+     ],
+     "name": "New Forest West (Conservative)"
+    },
+    {
+     "value": [
+      31.8,
+      5
+     ],
+     "name": "Orpington (Conservative)"
+    },
+    {
+     "value": [
+      36.1,
+      5
+     ],
+     "name": "Ruislip, Northwood and Pinner (Conservative)"
+    },
+    {
+     "value": [
+      41.7,
+      5
+     ],
+     "name": "Brentwood and Ongar (Conservative)"
+    },
+    {
+     "value": [
+      43.9,
+      5
+     ],
+     "name": "Beaconsfield (Conservative)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Conservative",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -4
+   ],
+   "itemStyle": {
+    "color": "#0087dc",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      19.8,
+      5
+     ],
+     "name": "North West Norfolk (Conservative)"
+    },
+    {
+     "value": [
+      20.0,
+      5
+     ],
+     "name": "Mid Leicestershire (Conservative)"
+    },
+    {
+     "value": [
+      21.3,
+      5
+     ],
+     "name": "Hamble Valley (Conservative)"
+    },
+    {
+     "value": [
+      21.3,
+      5
+     ],
+     "name": "Harwich and North Essex (Conservative)"
+    },
+    {
+     "value": [
+      23.7,
+      5
+     ],
+     "name": "New Forest East (Conservative)"
+    },
+    {
+     "value": [
+      25.1,
+      5
+     ],
+     "name": "Maldon (Conservative)"
+    },
+    {
+     "value": [
+      27.5,
+      5
+     ],
+     "name": "North West Essex (Conservative)"
+    },
+    {
+     "value": [
+      27.6,
+      5
+     ],
+     "name": "Tonbridge (Conservative)"
+    },
+    {
+     "value": [
+      29.3,
+      5
+     ],
+     "name": "East Hampshire (Conservative)"
+    },
+    {
+     "value": [
+      30.9,
+      5
+     ],
+     "name": "Tatton (Conservative)"
+    },
+    {
+     "value": [
+      32.2,
+      5
+     ],
+     "name": "Arundel and South Downs (Conservative)"
+    },
+    {
+     "value": [
+      37.6,
+      5
+     ],
+     "name": "Farnham and Bordon (Conservative)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Conservative",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    0
+   ],
+   "itemStyle": {
+    "color": "#0087dc",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      12.0,
+      5
+     ],
+     "name": "Leicester East (Conservative)"
+    },
+    {
+     "value": [
+      16.5,
+      5
+     ],
+     "name": "Stone, Great Wyrley and Penkridge (Conservative)"
+    },
+    {
+     "value": [
+      19.8,
+      5
+     ],
+     "name": "West Suffolk (Conservative)"
+    },
+    {
+     "value": [
+      20.5,
+      5
+     ],
+     "name": "West Worcestershire (Conservative)"
+    },
+    {
+     "value": [
+      20.9,
+      5
+     ],
+     "name": "Rutland and Stamford (Conservative)"
+    },
+    {
+     "value": [
+      21.1,
+      5
+     ],
+     "name": "Droitwich and Evesham (Conservative)"
+    },
+    {
+     "value": [
+      21.3,
+      5
+     ],
+     "name": "Faversham and Mid Kent (Conservative)"
+    },
+    {
+     "value": [
+      21.3,
+      5
+     ],
+     "name": "Huntingdon (Conservative)"
+    },
+    {
+     "value": [
+      21.7,
+      5
+     ],
+     "name": "Keighley and Ilkley (Conservative)"
+    },
+    {
+     "value": [
+      23.6,
+      5
+     ],
+     "name": "Fareham and Waterlooville (Conservative)"
+    },
+    {
+     "value": [
+      23.7,
+      5
+     ],
+     "name": "Maidstone and Malling (Conservative)"
+    },
+    {
+     "value": [
+      25.1,
+      5
+     ],
+     "name": "East Wiltshire (Conservative)"
+    },
+    {
+     "value": [
+      26.3,
+      5
+     ],
+     "name": "Spelthorne (Conservative)"
+    },
+    {
+     "value": [
+      31.7,
+      5
+     ],
+     "name": "Croydon South (Conservative)"
+    },
+    {
+     "value": [
+      40.1,
+      5
+     ],
+     "name": "Bromley and Biggin Hill (Conservative)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Conservative",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    4
+   ],
+   "itemStyle": {
+    "color": "#0087dc",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      11.3,
+      5
+     ],
+     "name": "Brigg and Immingham (Conservative)"
+    },
+    {
+     "value": [
+      13.8,
+      5
+     ],
+     "name": "Beverley and Holderness (Conservative)"
+    },
+    {
+     "value": [
+      15.7,
+      5
+     ],
+     "name": "South Holland and The Deepings (Conservative)"
+    },
+    {
+     "value": [
+      18.0,
+      5
+     ],
+     "name": "South Suffolk (Conservative)"
+    },
+    {
+     "value": [
+      19.1,
+      5
+     ],
+     "name": "Wetherby and Easingwold (Conservative)"
+    },
+    {
+     "value": [
+      19.6,
+      5
+     ],
+     "name": "Isle of Wight East (Conservative)"
+    },
+    {
+     "value": [
+      20.0,
+      5
+     ],
+     "name": "Bognor Regis and Littlehampton (Conservative)"
+    },
+    {
+     "value": [
+      20.5,
+      5
+     ],
+     "name": "Witham (Conservative)"
+    },
+    {
+     "value": [
+      21.0,
+      5
+     ],
+     "name": "Central Suffolk and North Ipswich (Conservative)"
+    },
+    {
+     "value": [
+      22.0,
+      5
+     ],
+     "name": "Central Devon (Conservative)"
+    },
+    {
+     "value": [
+      22.1,
+      5
+     ],
+     "name": "Herne Bay and Sandwich (Conservative)"
+    },
+    {
+     "value": [
+      22.7,
+      5
+     ],
+     "name": "Weald of Kent (Conservative)"
+    },
+    {
+     "value": [
+      23.5,
+      5
+     ],
+     "name": "Havant (Conservative)"
+    },
+    {
+     "value": [
+      24.0,
+      5
+     ],
+     "name": "North Dorset (Conservative)"
+    },
+    {
+     "value": [
+      24.3,
+      5
+     ],
+     "name": "Romford (Conservative)"
+    },
+    {
+     "value": [
+      26.1,
+      5
+     ],
+     "name": "Romsey and Southampton North (Conservative)"
+    },
+    {
+     "value": [
+      32.3,
+      5
+     ],
+     "name": "Windsor (Conservative)"
+    },
+    {
+     "value": [
+      38.9,
+      5
+     ],
+     "name": "Godalming and Ash (Conservative)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Conservative",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    8
+   ],
+   "itemStyle": {
+    "color": "#0087dc",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      19.6,
+      5
+     ],
+     "name": "Fylde (Conservative)"
+    },
+    {
+     "value": [
+      24.3,
+      5
+     ],
+     "name": "Meriden and Solihull East (Conservative)"
+    },
+    {
+     "value": [
+      24.5,
+      5
+     ],
+     "name": "North West Hampshire (Conservative)"
+    },
+    {
+     "value": [
+      27.0,
+      5
+     ],
+     "name": "Mid Buckinghamshire (Conservative)"
+    },
+    {
+     "value": [
+      27.2,
+      5
+     ],
+     "name": "Christchurch (Conservative)"
+    },
+    {
+     "value": [
+      29.8,
+      5
+     ],
+     "name": "Old Bexley and Sidcup (Conservative)"
+    },
+    {
+     "value": [
+      34.7,
+      5
+     ],
+     "name": "Chingford and Woodford Green (Conservative)"
+    },
+    {
+     "value": [
+      35.2,
+      5
+     ],
+     "name": "Sevenoaks (Conservative)"
+    },
+    {
+     "value": [
+      35.9,
+      5
+     ],
+     "name": "East Surrey (Conservative)"
+    },
+    {
+     "value": [
+      36.1,
+      5
+     ],
+     "name": "Hertsmere (Conservative)"
+    },
+    {
+     "value": [
+      39.9,
+      5
+     ],
+     "name": "Reigate (Conservative)"
+    },
+    {
+     "value": [
+      45.0,
+      5
+     ],
+     "name": "Runnymede and Weybridge (Conservative)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Conservative",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    12
+   ],
+   "itemStyle": {
+    "color": "#0087dc",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      10.8,
+      5
+     ],
+     "name": "Aldridge-Brownhills (Conservative)"
+    },
+    {
+     "value": [
+      12.0,
+      5
+     ],
+     "name": "Hinckley and Bosworth (Conservative)"
+    },
+    {
+     "value": [
+      13.1,
+      5
+     ],
+     "name": "Wyre Forest (Conservative)"
+    },
+    {
+     "value": [
+      17.1,
+      5
+     ],
+     "name": "Kingswinford and South Staffordshire (Conservative)"
+    },
+    {
+     "value": [
+      17.5,
+      5
+     ],
+     "name": "Louth and Horncastle (Conservative)"
+    },
+    {
+     "value": [
+      19.9,
+      5
+     ],
+     "name": "Broadland and Fakenham (Conservative)"
+    },
+    {
+     "value": [
+      20.0,
+      5
+     ],
+     "name": "Rayleigh and Wickford (Conservative)"
+    },
+    {
+     "value": [
+      21.0,
+      5
+     ],
+     "name": "Chester South and Eddisbury (Conservative)"
+    },
+    {
+     "value": [
+      21.5,
+      5
+     ],
+     "name": "Melton and Syston (Conservative)"
+    },
+    {
+     "value": [
+      22.9,
+      5
+     ],
+     "name": "Braintree (Conservative)"
+    },
+    {
+     "value": [
+      24.2,
+      5
+     ],
+     "name": "South West Wiltshire (Conservative)"
+    },
+    {
+     "value": [
+      35.1,
+      5
+     ],
+     "name": "Epping Forest (Conservative)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Labour",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -12
+   ],
+   "itemStyle": {
+    "color": "#d50000",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Houghton and Sunderland South (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Doncaster Central (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Leeds South (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Penistone and Stocksbridge (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Rotherham (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Sheffield South East (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Smethwick (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Barrow and Furness (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Blackpool South (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Bolton North East (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Bolton South and Walkden (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Bootle (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Bury South (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Liverpool Wavertree (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Manchester Central (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Oldham East and Saddleworth (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "St Helens South and Whiston (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Stalybridge and Hyde (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Widnes and Halewood (Labour)"
+    },
+    {
+     "value": [
+      11.0,
+      6
+     ],
+     "name": "Birmingham Selly Oak (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Aberafan Maesteg (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Alyn and Deeside (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Newport West and Islwyn (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Pontypridd (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Wrexham (Labour)"
+    },
+    {
+     "value": [
+      14.0,
+      6
+     ],
+     "name": "Northampton South (Labour)"
+    },
+    {
+     "value": [
+      14.7,
+      6
+     ],
+     "name": "Peterborough (Labour)"
+    },
+    {
+     "value": [
+      15.4,
+      6
+     ],
+     "name": "Corby and East Northamptonshire (Labour)"
+    },
+    {
+     "value": [
+      16.9,
+      6
+     ],
+     "name": "Tynemouth (Labour)"
+    },
+    {
+     "value": [
+      17.3,
+      6
+     ],
+     "name": "Broxtowe (Labour)"
+    },
+    {
+     "value": [
+      17.5,
+      6
+     ],
+     "name": "Calder Valley (Labour)"
+    },
+    {
+     "value": [
+      17.6,
+      6
+     ],
+     "name": "Leeds North West (Labour)"
+    },
+    {
+     "value": [
+      17.7,
+      6
+     ],
+     "name": "Colne Valley (Labour)"
+    },
+    {
+     "value": [
+      17.9,
+      6
+     ],
+     "name": "Milton Keynes Central (Labour)"
+    },
+    {
+     "value": [
+      18.4,
+      6
+     ],
+     "name": "Bethnal Green and Stepney (Labour)"
+    },
+    {
+     "value": [
+      18.8,
+      6
+     ],
+     "name": "Sittingbourne and Sheppey (Labour)"
+    },
+    {
+     "value": [
+      18.9,
+      6
+     ],
+     "name": "Bedford (Labour)"
+    },
+    {
+     "value": [
+      19.1,
+      6
+     ],
+     "name": "Hackney South and Shoreditch (Labour)"
+    },
+    {
+     "value": [
+      19.6,
+      6
+     ],
+     "name": "Isle of Wight West (Labour)"
+    },
+    {
+     "value": [
+      19.9,
+      6
+     ],
+     "name": "High Peak (Labour)"
+    },
+    {
+     "value": [
+      21.3,
+      6
+     ],
+     "name": "Wirral West (Labour)"
+    },
+    {
+     "value": [
+      22.3,
+      6
+     ],
+     "name": "Portsmouth South (Labour)"
+    },
+    {
+     "value": [
+      22.6,
+      6
+     ],
+     "name": "Dagenham and Rainham (Labour)"
+    },
+    {
+     "value": [
+      22.8,
+      6
+     ],
+     "name": "North East Hertfordshire (Labour)"
+    },
+    {
+     "value": [
+      22.8,
+      6
+     ],
+     "name": "Norwich South (Labour)"
+    },
+    {
+     "value": [
+      22.9,
+      6
+     ],
+     "name": "Birmingham Edgbaston (Labour)"
+    },
+    {
+     "value": [
+      24.3,
+      6
+     ],
+     "name": "East Worthing and Shoreham (Labour)"
+    },
+    {
+     "value": [
+      27.4,
+      6
+     ],
+     "name": "Ealing North (Labour)"
+    },
+    {
+     "value": [
+      27.4,
+      6
+     ],
+     "name": "Sheffield Hallam (Labour)"
+    },
+    {
+     "value": [
+      28.6,
+      6
+     ],
+     "name": "Walthamstow (Labour)"
+    },
+    {
+     "value": [
+      28.8,
+      6
+     ],
+     "name": "Harrow West (Labour)"
+    },
+    {
+     "value": [
+      31.7,
+      6
+     ],
+     "name": "Lewisham West and East Dulwich (Labour)"
+    },
+    {
+     "value": [
+      34.7,
+      6
+     ],
+     "name": "Hendon (Labour)"
+    },
+    {
+     "value": [
+      40.3,
+      6
+     ],
+     "name": "Beckenham and Penge (Labour)"
+    },
+    {
+     "value": [
+      40.3,
+      6
+     ],
+     "name": "Hornsey and Friern Barnet (Labour)"
+    },
+    {
+     "value": [
+      42.9,
+      6
+     ],
+     "name": "Hampstead and Highgate (Labour)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Labour",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -8
+   ],
+   "itemStyle": {
+    "color": "#d50000",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Blaydon and Consett (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Hartlepool (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Jarrow and Gateshead East (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Washington and Gateshead South (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Leeds South West and Morley (Labour)"
+    },
+    {
+     "value": [
+      10.4,
+      6
+     ],
+     "name": "York Central (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Burton and Uttoxeter (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Cannock Chase (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Nuneaton (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Telford (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Tipton and Wednesbury (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Heywood and Middleton North (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Leigh and Atherton (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Oldham West, Chadderton and Royton (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Wigan (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Wolverhampton North East (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Amber Valley (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Chesterfield (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Mansfield (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Cardiff West (Labour)"
+    },
+    {
+     "value": [
+      12.4,
+      6
+     ],
+     "name": "Sherwood Forest (Labour)"
+    },
+    {
+     "value": [
+      13.5,
+      6
+     ],
+     "name": "Plymouth Sutton and Devonport (Labour)"
+    },
+    {
+     "value": [
+      14.7,
+      6
+     ],
+     "name": "Dunstable and Leighton Buzzard (Labour)"
+    },
+    {
+     "value": [
+      14.7,
+      6
+     ],
+     "name": "Lancaster and Wyre (Labour)"
+    },
+    {
+     "value": [
+      14.7,
+      6
+     ],
+     "name": "Thurrock (Labour)"
+    },
+    {
+     "value": [
+      15.1,
+      6
+     ],
+     "name": "Mid and South Pembrokeshire (Labour)"
+    },
+    {
+     "value": [
+      15.7,
+      6
+     ],
+     "name": "Lowestoft (Labour)"
+    },
+    {
+     "value": [
+      17.0,
+      6
+     ],
+     "name": "Milton Keynes North (Labour)"
+    },
+    {
+     "value": [
+      17.0,
+      6
+     ],
+     "name": "Penrith and Solway (Labour)"
+    },
+    {
+     "value": [
+      19.0,
+      6
+     ],
+     "name": "Chatham and Aylesford (Labour)"
+    },
+    {
+     "value": [
+      19.1,
+      6
+     ],
+     "name": "Dartford (Labour)"
+    },
+    {
+     "value": [
+      19.3,
+      6
+     ],
+     "name": "North West Cambridgeshire (Labour)"
+    },
+    {
+     "value": [
+      19.7,
+      6
+     ],
+     "name": "Morecambe and Lunesdale (Labour)"
+    },
+    {
+     "value": [
+      21.7,
+      6
+     ],
+     "name": "Dover and Deal (Labour)"
+    },
+    {
+     "value": [
+      21.7,
+      6
+     ],
+     "name": "South Dorset (Labour)"
+    },
+    {
+     "value": [
+      22.2,
+      6
+     ],
+     "name": "Leeds North East (Labour)"
+    },
+    {
+     "value": [
+      22.6,
+      6
+     ],
+     "name": "Erith and Thamesmead (Labour)"
+    },
+    {
+     "value": [
+      23.9,
+      6
+     ],
+     "name": "Canterbury (Labour)"
+    },
+    {
+     "value": [
+      26.0,
+      6
+     ],
+     "name": "York Outer (Labour)"
+    },
+    {
+     "value": [
+      27.3,
+      6
+     ],
+     "name": "Ealing Southall (Labour)"
+    },
+    {
+     "value": [
+      27.5,
+      6
+     ],
+     "name": "Bexleyheath and Crayford (Labour)"
+    },
+    {
+     "value": [
+      29.0,
+      6
+     ],
+     "name": "Worthing West (Labour)"
+    },
+    {
+     "value": [
+      29.1,
+      6
+     ],
+     "name": "Mitcham and Morden (Labour)"
+    },
+    {
+     "value": [
+      30.9,
+      6
+     ],
+     "name": "Oxford East (Labour)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Labour",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    -4
+   ],
+   "itemStyle": {
+    "color": "#d50000",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Darlington (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Easington (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Middlesbrough South and East Cleveland (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Newton Aycliffe and Spennymoor (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Doncaster North (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Pontefract, Castleford and Knottingley (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Birmingham Ladywood (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Walsall and Bloxwich (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Wolverhampton South East (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Bolton West (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Bury North (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Liverpool Riverside (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Liverpool West Derby (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Bassetlaw (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Lincoln (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Nottingham East (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "South Derbyshire (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Blaenau Gwent and Rhymney (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Llanelli (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Merthyr Tydfil and Aberdare (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Newport East (Labour)"
+    },
+    {
+     "value": [
+      12.1,
+      6
+     ],
+     "name": "Wakefield and Rothwell (Labour)"
+    },
+    {
+     "value": [
+      12.6,
+      6
+     ],
+     "name": "Neath and Swansea East (Labour)"
+    },
+    {
+     "value": [
+      12.8,
+      6
+     ],
+     "name": "Mid Derbyshire (Labour)"
+    },
+    {
+     "value": [
+      12.9,
+      6
+     ],
+     "name": "Stoke-on-Trent South (Labour)"
+    },
+    {
+     "value": [
+      14.9,
+      6
+     ],
+     "name": "Ellesmere Port and Bromborough (Labour)"
+    },
+    {
+     "value": [
+      15.0,
+      6
+     ],
+     "name": "Luton South and South Bedfordshire (Labour)"
+    },
+    {
+     "value": [
+      16.0,
+      6
+     ],
+     "name": "Ribble Valley (Labour)"
+    },
+    {
+     "value": [
+      16.1,
+      6
+     ],
+     "name": "Stourbridge (Labour)"
+    },
+    {
+     "value": [
+      17.6,
+      6
+     ],
+     "name": "South West Norfolk (Labour)"
+    },
+    {
+     "value": [
+      17.8,
+      6
+     ],
+     "name": "Bristol North East (Labour)"
+    },
+    {
+     "value": [
+      18.2,
+      6
+     ],
+     "name": "Gravesham (Labour)"
+    },
+    {
+     "value": [
+      18.2,
+      6
+     ],
+     "name": "Montgomeryshire and Glyndwr (Labour)"
+    },
+    {
+     "value": [
+      18.8,
+      6
+     ],
+     "name": "Southampton Test (Labour)"
+    },
+    {
+     "value": [
+      20.3,
+      6
+     ],
+     "name": "Mid Cheshire (Labour)"
+    },
+    {
+     "value": [
+      21.1,
+      6
+     ],
+     "name": "Shrewsbury (Labour)"
+    },
+    {
+     "value": [
+      21.4,
+      6
+     ],
+     "name": "Chester North and Neston (Labour)"
+    },
+    {
+     "value": [
+      21.4,
+      6
+     ],
+     "name": "Forest of Dean (Labour)"
+    },
+    {
+     "value": [
+      21.5,
+      6
+     ],
+     "name": "North East Somerset and Hanham (Labour)"
+    },
+    {
+     "value": [
+      22.7,
+      6
+     ],
+     "name": "Bracknell (Labour)"
+    },
+    {
+     "value": [
+      23.4,
+      6
+     ],
+     "name": "Vauxhall and Camberwell Green (Labour)"
+    },
+    {
+     "value": [
+      26.5,
+      6
+     ],
+     "name": "Brighton Kemptown and Peacehaven (Labour)"
+    },
+    {
+     "value": [
+      26.9,
+      6
+     ],
+     "name": "Ilford South (Labour)"
+    },
+    {
+     "value": [
+      27.4,
+      6
+     ],
+     "name": "Stroud (Labour)"
+    },
+    {
+     "value": [
+      27.9,
+      6
+     ],
+     "name": "Watford (Labour)"
+    },
+    {
+     "value": [
+      29.7,
+      6
+     ],
+     "name": "Lewisham North (Labour)"
+    },
+    {
+     "value": [
+      30.5,
+      6
+     ],
+     "name": "Edmonton and Winchmore Hill (Labour)"
+    },
+    {
+     "value": [
+      41.8,
+      6
+     ],
+     "name": "Cambridge (Labour)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Labour",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    0
+   ],
+   "itemStyle": {
+    "color": "#d50000",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Bradford East (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Sheffield Brightside and Hillsborough (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Spen Valley (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Coventry North West (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Dudley (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Stoke-on-Trent Central (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Blackley and Middleton South (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Hyndburn (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Knowsley (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Makerfield (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Rochdale (Labour)"
+    },
+    {
+     "value": [
+      11.0,
+      6
+     ],
+     "name": "Tamworth (Labour)"
+    },
+    {
+     "value": [
+      11.1,
+      6
+     ],
+     "name": "Birmingham Yardley (Labour)"
+    },
+    {
+     "value": [
+      11.8,
+      6
+     ],
+     "name": "Doncaster East and the Isle of Axholme (Labour)"
+    },
+    {
+     "value": [
+      11.9,
+      6
+     ],
+     "name": "Kingston upon Hull North and Cottingham (Labour)"
+    },
+    {
+     "value": [
+      11.9,
+      6
+     ],
+     "name": "Wallasey (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Derby North (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Erewash (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Swansea West (Labour)"
+    },
+    {
+     "value": [
+      12.9,
+      6
+     ],
+     "name": "Preston (Labour)"
+    },
+    {
+     "value": [
+      13.1,
+      6
+     ],
+     "name": "Whitehaven and Workington (Labour)"
+    },
+    {
+     "value": [
+      13.2,
+      6
+     ],
+     "name": "Carlisle (Labour)"
+    },
+    {
+     "value": [
+      14.7,
+      6
+     ],
+     "name": "Ipswich (Labour)"
+    },
+    {
+     "value": [
+      15.7,
+      6
+     ],
+     "name": "Runcorn and Helsby (Labour)"
+    },
+    {
+     "value": [
+      15.9,
+      6
+     ],
+     "name": "Lichfield (Labour)"
+    },
+    {
+     "value": [
+      17.0,
+      6
+     ],
+     "name": "Selby (Labour)"
+    },
+    {
+     "value": [
+      17.9,
+      6
+     ],
+     "name": "Bristol East (Labour)"
+    },
+    {
+     "value": [
+      18.1,
+      6
+     ],
+     "name": "Norwich North (Labour)"
+    },
+    {
+     "value": [
+      18.2,
+      6
+     ],
+     "name": "Worcester (Labour)"
+    },
+    {
+     "value": [
+      18.4,
+      6
+     ],
+     "name": "Aldershot (Labour)"
+    },
+    {
+     "value": [
+      18.4,
+      6
+     ],
+     "name": "West Ham and Beckton (Labour)"
+    },
+    {
+     "value": [
+      18.8,
+      6
+     ],
+     "name": "Buckingham and Bletchley (Labour)"
+    },
+    {
+     "value": [
+      18.8,
+      6
+     ],
+     "name": "Portsmouth North (Labour)"
+    },
+    {
+     "value": [
+      20.2,
+      6
+     ],
+     "name": "Coventry South (Labour)"
+    },
+    {
+     "value": [
+      20.7,
+      6
+     ],
+     "name": "St Austell and Newquay (Labour)"
+    },
+    {
+     "value": [
+      21.3,
+      6
+     ],
+     "name": "Cardiff South and Penarth (Labour)"
+    },
+    {
+     "value": [
+      22.7,
+      6
+     ],
+     "name": "Slough (Labour)"
+    },
+    {
+     "value": [
+      23.1,
+      6
+     ],
+     "name": "Derbyshire Dales (Labour)"
+    },
+    {
+     "value": [
+      24.2,
+      6
+     ],
+     "name": "Ilford North (Labour)"
+    },
+    {
+     "value": [
+      24.3,
+      6
+     ],
+     "name": "Bournemouth West (Labour)"
+    },
+    {
+     "value": [
+      24.8,
+      6
+     ],
+     "name": "Rushcliffe (Labour)"
+    },
+    {
+     "value": [
+      25.2,
+      6
+     ],
+     "name": "Aylesbury (Labour)"
+    },
+    {
+     "value": [
+      26.3,
+      6
+     ],
+     "name": "Hemel Hempstead (Labour)"
+    },
+    {
+     "value": [
+      26.7,
+      6
+     ],
+     "name": "Bournemouth East (Labour)"
+    },
+    {
+     "value": [
+      27.6,
+      6
+     ],
+     "name": "North Somerset (Labour)"
+    },
+    {
+     "value": [
+      27.9,
+      6
+     ],
+     "name": "Greenwich and Woolwich (Labour)"
+    },
+    {
+     "value": [
+      31.9,
+      6
+     ],
+     "name": "Uxbridge and South Ruislip (Labour)"
+    },
+    {
+     "value": [
+      32.4,
+      6
+     ],
+     "name": "Hitchin (Labour)"
+    },
+    {
+     "value": [
+      34.5,
+      6
+     ],
+     "name": "Streatham and Croydon North (Labour)"
+    },
+    {
+     "value": [
+      43.6,
+      6
+     ],
+     "name": "Chelsea and Fulham (Labour)"
+    },
+    {
+     "value": [
+      45.8,
+      6
+     ],
+     "name": "Tooting (Labour)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Labour",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    4
+   ],
+   "itemStyle": {
+    "color": "#d50000",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Bishop Auckland (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Gateshead Central and Whickham (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Newcastle upon Tyne East and Wallsend (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "South Shields (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Stockton North (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Normanton and Hemsworth (Labour)"
+    },
+    {
+     "value": [
+      10.3,
+      6
+     ],
+     "name": "Cramlington and Killingworth (Labour)"
+    },
+    {
+     "value": [
+      10.4,
+      6
+     ],
+     "name": "Sheffield Central (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Stoke-on-Trent North (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "West Bromwich (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Burnley (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Stretford and Urmston (Labour)"
+    },
+    {
+     "value": [
+      11.0,
+      6
+     ],
+     "name": "Crewe and Nantwich (Labour)"
+    },
+    {
+     "value": [
+      11.1,
+      6
+     ],
+     "name": "Birmingham Northfield (Labour)"
+    },
+    {
+     "value": [
+      11.2,
+      6
+     ],
+     "name": "Scunthorpe (Labour)"
+    },
+    {
+     "value": [
+      11.5,
+      6
+     ],
+     "name": "Huddersfield (Labour)"
+    },
+    {
+     "value": [
+      11.6,
+      6
+     ],
+     "name": "Redditch (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "North West Leicestershire (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Caerphilly (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Rhondda and Ogmore (Labour)"
+    },
+    {
+     "value": [
+      12.2,
+      6
+     ],
+     "name": "Blackpool North and Fleetwood (Labour)"
+    },
+    {
+     "value": [
+      12.2,
+      6
+     ],
+     "name": "Kettering (Labour)"
+    },
+    {
+     "value": [
+      12.4,
+      6
+     ],
+     "name": "Leeds East (Labour)"
+    },
+    {
+     "value": [
+      12.9,
+      6
+     ],
+     "name": "Birkenhead (Labour)"
+    },
+    {
+     "value": [
+      13.5,
+      6
+     ],
+     "name": "Plymouth Moor View (Labour)"
+    },
+    {
+     "value": [
+      13.6,
+      6
+     ],
+     "name": "Torfaen (Labour)"
+    },
+    {
+     "value": [
+      15.5,
+      6
+     ],
+     "name": "South Ribble (Labour)"
+    },
+    {
+     "value": [
+      16.5,
+      6
+     ],
+     "name": "West Lancashire (Labour)"
+    },
+    {
+     "value": [
+      17.2,
+      6
+     ],
+     "name": "Warrington South (Labour)"
+    },
+    {
+     "value": [
+      18.2,
+      6
+     ],
+     "name": "Camborne and Redruth (Labour)"
+    },
+    {
+     "value": [
+      18.2,
+      6
+     ],
+     "name": "Sefton Central (Labour)"
+    },
+    {
+     "value": [
+      18.2,
+      6
+     ],
+     "name": "Stockport (Labour)"
+    },
+    {
+     "value": [
+      18.4,
+      6
+     ],
+     "name": "Basingstoke (Labour)"
+    },
+    {
+     "value": [
+      18.4,
+      6
+     ],
+     "name": "Peckham (Labour)"
+    },
+    {
+     "value": [
+      18.8,
+      6
+     ],
+     "name": "Gillingham and Rainham (Labour)"
+    },
+    {
+     "value": [
+      18.8,
+      6
+     ],
+     "name": "Hove and Portslade (Labour)"
+    },
+    {
+     "value": [
+      18.9,
+      6
+     ],
+     "name": "Bermondsey and Old Southwark (Labour)"
+    },
+    {
+     "value": [
+      19.9,
+      6
+     ],
+     "name": "Rochester and Strood (Labour)"
+    },
+    {
+     "value": [
+      20.3,
+      6
+     ],
+     "name": "Crawley (Labour)"
+    },
+    {
+     "value": [
+      20.6,
+      6
+     ],
+     "name": "Folkestone and Hythe (Labour)"
+    },
+    {
+     "value": [
+      20.8,
+      6
+     ],
+     "name": "Stevenage (Labour)"
+    },
+    {
+     "value": [
+      22.4,
+      6
+     ],
+     "name": "South Norfolk (Labour)"
+    },
+    {
+     "value": [
+      23.0,
+      6
+     ],
+     "name": "Hastings and Rye (Labour)"
+    },
+    {
+     "value": [
+      23.1,
+      6
+     ],
+     "name": "Banbury (Labour)"
+    },
+    {
+     "value": [
+      24.7,
+      6
+     ],
+     "name": "Feltham and Heston (Labour)"
+    },
+    {
+     "value": [
+      25.0,
+      6
+     ],
+     "name": "Hayes and Harlington (Labour)"
+    },
+    {
+     "value": [
+      25.4,
+      6
+     ],
+     "name": "Manchester Withington (Labour)"
+    },
+    {
+     "value": [
+      26.1,
+      6
+     ],
+     "name": "Reading Central (Labour)"
+    },
+    {
+     "value": [
+      26.7,
+      6
+     ],
+     "name": "Exeter (Labour)"
+    },
+    {
+     "value": [
+      28.1,
+      6
+     ],
+     "name": "Hertford and Stortford (Labour)"
+    },
+    {
+     "value": [
+      29.3,
+      6
+     ],
+     "name": "Croydon East (Labour)"
+    },
+    {
+     "value": [
+      30.4,
+      6
+     ],
+     "name": "Wycombe (Labour)"
+    },
+    {
+     "value": [
+      30.6,
+      6
+     ],
+     "name": "Poole (Labour)"
+    },
+    {
+     "value": [
+      31.2,
+      6
+     ],
+     "name": "Tottenham (Labour)"
+    },
+    {
+     "value": [
+      32.4,
+      6
+     ],
+     "name": "Hackney North and Stoke Newington (Labour)"
+    },
+    {
+     "value": [
+      39.8,
+      6
+     ],
+     "name": "Southgate and Wood Green (Labour)"
+    },
+    {
+     "value": [
+      43.9,
+      6
+     ],
+     "name": "Kensington and Bayswater (Labour)"
+    },
+    {
+     "value": [
+      44.8,
+      6
+     ],
+     "name": "Putney (Labour)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Labour",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    8
+   ],
+   "itemStyle": {
+    "color": "#d50000",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Blyth and Ashington (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Sunderland Central (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Bradford South (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Great Grimsby and Cleethorpes (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Kingston upon Hull East (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Sheffield Heeley (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Ashton-under-Lyne (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Liverpool Garston (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Warrington North (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Worsley and Eccles (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Gedling (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Bridgend (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Clwyd North (Labour)"
+    },
+    {
+     "value": [
+      12.1,
+      6
+     ],
+     "name": "Pendle and Clitheroe (Labour)"
+    },
+    {
+     "value": [
+      12.2,
+      6
+     ],
+     "name": "Northampton North (Labour)"
+    },
+    {
+     "value": [
+      12.2,
+      6
+     ],
+     "name": "Nottingham South (Labour)"
+    },
+    {
+     "value": [
+      12.7,
+      6
+     ],
+     "name": "Gorton and Denton (Labour)"
+    },
+    {
+     "value": [
+      12.7,
+      6
+     ],
+     "name": "Halesowen (Labour)"
+    },
+    {
+     "value": [
+      12.7,
+      6
+     ],
+     "name": "Stafford (Labour)"
+    },
+    {
+     "value": [
+      13.3,
+      6
+     ],
+     "name": "Newcastle upon Tyne Central and West (Labour)"
+    },
+    {
+     "value": [
+      13.5,
+      6
+     ],
+     "name": "Nottingham North and Kimberley (Labour)"
+    },
+    {
+     "value": [
+      13.9,
+      6
+     ],
+     "name": "North Northumberland (Labour)"
+    },
+    {
+     "value": [
+      14.8,
+      6
+     ],
+     "name": "Birmingham Hodge Hill and Solihull North (Labour)"
+    },
+    {
+     "value": [
+      15.6,
+      6
+     ],
+     "name": "Cardiff East (Labour)"
+    },
+    {
+     "value": [
+      17.2,
+      6
+     ],
+     "name": "Weston-super-Mare (Labour)"
+    },
+    {
+     "value": [
+      17.3,
+      6
+     ],
+     "name": "South East Cornwall (Labour)"
+    },
+    {
+     "value": [
+      17.5,
+      6
+     ],
+     "name": "Swindon South (Labour)"
+    },
+    {
+     "value": [
+      17.5,
+      6
+     ],
+     "name": "Gower (Labour)"
+    },
+    {
+     "value": [
+      18.3,
+      6
+     ],
+     "name": "Scarborough and Whitby (Labour)"
+    },
+    {
+     "value": [
+      18.4,
+      6
+     ],
+     "name": "Barking (Labour)"
+    },
+    {
+     "value": [
+      18.6,
+      6
+     ],
+     "name": "Congleton (Labour)"
+    },
+    {
+     "value": [
+      19.3,
+      6
+     ],
+     "name": "Gloucester (Labour)"
+    },
+    {
+     "value": [
+      20.1,
+      6
+     ],
+     "name": "Southport (Labour)"
+    },
+    {
+     "value": [
+      21.0,
+      6
+     ],
+     "name": "Hexham (Labour)"
+    },
+    {
+     "value": [
+      21.9,
+      6
+     ],
+     "name": "Monmouthshire (Labour)"
+    },
+    {
+     "value": [
+      22.1,
+      6
+     ],
+     "name": "Ashford (Labour)"
+    },
+    {
+     "value": [
+      26.1,
+      6
+     ],
+     "name": "Macclesfield (Labour)"
+    },
+    {
+     "value": [
+      26.1,
+      6
+     ],
+     "name": "Southend West and Leigh (Labour)"
+    },
+    {
+     "value": [
+      30.2,
+      6
+     ],
+     "name": "Welwyn Hatfield (Labour)"
+    },
+    {
+     "value": [
+      30.6,
+      6
+     ],
+     "name": "Altrincham and Sale West (Labour)"
+    },
+    {
+     "value": [
+      33.0,
+      6
+     ],
+     "name": "Islington South and Finsbury (Labour)"
+    },
+    {
+     "value": [
+      36.9,
+      6
+     ],
+     "name": "Holborn and St Pancras (Labour)"
+    },
+    {
+     "value": [
+      37.4,
+      6
+     ],
+     "name": "Brentford and Isleworth (Labour)"
+    },
+    {
+     "value": [
+      38.1,
+      6
+     ],
+     "name": "Queen's Park and Maida Vale (Labour)"
+    },
+    {
+     "value": [
+      38.3,
+      6
+     ],
+     "name": "Dulwich and West Norwood (Labour)"
+    },
+    {
+     "value": [
+      39.7,
+      6
+     ],
+     "name": "Hammersmith and Chiswick (Labour)"
+    },
+    {
+     "value": [
+      45.0,
+      6
+     ],
+     "name": "Ealing Central and Acton (Labour)"
+    },
+    {
+     "value": [
+      46.2,
+      6
+     ],
+     "name": "Cities of London and Westminster (Labour)"
+    },
+    {
+     "value": [
+      48.1,
+      6
+     ],
+     "name": "Battersea (Labour)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Labour",
+   "symbolSize": 7,
+   "symbolOffset": [
+    0,
+    12
+   ],
+   "itemStyle": {
+    "color": "#d50000",
+    "opacity": 0.45
+   },
+   "emphasis": {
+    "itemStyle": {
+     "opacity": 1,
+     "borderColor": "#fff",
+     "borderWidth": 1
+    }
+   },
+   "data": [
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "City of Durham (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Middlesbrough and Thornaby East (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "North Durham (Labour)"
+    },
+    {
+     "value": [
+      9.1,
+      6
+     ],
+     "name": "Redcar (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Barnsley North (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Barnsley South (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Leeds West and Pudsey (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Ossett and Denby Dale (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Rawmarsh and Conisbrough (Labour)"
+    },
+    {
+     "value": [
+      10.1,
+      6
+     ],
+     "name": "Rother Valley (Labour)"
+    },
+    {
+     "value": [
+      10.5,
+      6
+     ],
+     "name": "Halifax (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "Birmingham Erdington (Labour)"
+    },
+    {
+     "value": [
+      10.8,
+      6
+     ],
+     "name": "North Warwickshire and Bedworth (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Manchester Rusholme (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Rossendale and Darwen (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Salford (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "St Helens North (Labour)"
+    },
+    {
+     "value": [
+      10.9,
+      6
+     ],
+     "name": "Wythenshawe and Sale East (Labour)"
+    },
+    {
+     "value": [
+      11.1,
+      6
+     ],
+     "name": "Newcastle-under-Lyme (Labour)"
+    },
+    {
+     "value": [
+      11.8,
+      6
+     ],
+     "name": "Liverpool Walton (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Bolsover (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Derby South (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Leicester West (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "North East Derbyshire (Labour)"
+    },
+    {
+     "value": [
+      12.0,
+      6
+     ],
+     "name": "Clwyd East (Labour)"
+    },
+    {
+     "value": [
+      12.2,
+      6
+     ],
+     "name": "Newcastle upon Tyne North (Labour)"
+    },
+    {
+     "value": [
+      12.2,
+      6
+     ],
+     "name": "Wellingborough and Rushden (Labour)"
+    },
+    {
+     "value": [
+      12.3,
+      6
+     ],
+     "name": "Kingston upon Hull West and Haltemprice (Labour)"
+    },
+    {
+     "value": [
+      12.9,
+      6
+     ],
+     "name": "Coventry East (Labour)"
+    },
+    {
+     "value": [
+      13.5,
+      6
+     ],
+     "name": "Swindon North (Labour)"
+    },
+    {
+     "value": [
+      13.8,
+      6
+     ],
+     "name": "Bristol South (Labour)"
+    },
+    {
+     "value": [
+      14.7,
+      6
+     ],
+     "name": "Luton North (Labour)"
+    },
+    {
+     "value": [
+      15.7,
+      6
+     ],
+     "name": "Harlow (Labour)"
+    },
+    {
+     "value": [
+      16.4,
+      6
+     ],
+     "name": "Shipley (Labour)"
+    },
+    {
+     "value": [
+      17.4,
+      6
+     ],
+     "name": "Bangor Aberconwy (Labour)"
+    },
+    {
+     "value": [
+      17.6,
+      6
+     ],
+     "name": "Leeds Central and Headingley (Labour)"
+    },
+    {
+     "value": [
+      17.9,
+      6
+     ],
+     "name": "Wolverhampton West (Labour)"
+    },
+    {
+     "value": [
+      18.0,
+      6
+     ],
+     "name": "Loughborough (Labour)"
+    },
+    {
+     "value": [
+      18.4,
+      6
+     ],
+     "name": "Poplar and Limehouse (Labour)"
+    },
+    {
+     "value": [
+      18.4,
+      6
+     ],
+     "name": "Stratford and Bow (Labour)"
+    },
+    {
+     "value": [
+      18.8,
+      6
+     ],
+     "name": "East Ham (Labour)"
+    },
+    {
+     "value": [
+      18.8,
+      6
+     ],
+     "name": "Southampton Itchen (Labour)"
+    },
+    {
+     "value": [
+      19.5,
+      6
+     ],
+     "name": "Colchester (Labour)"
+    },
+    {
+     "value": [
+      20.1,
+      6
+     ],
+     "name": "Rugby (Labour)"
+    },
+    {
+     "value": [
+      21.1,
+      6
+     ],
+     "name": "Cardiff North (Labour)"
+    },
+    {
+     "value": [
+      21.4,
+      6
+     ],
+     "name": "Bury St Edmunds and Stowmarket (Labour)"
+    },
+    {
+     "value": [
+      22.1,
+      6
+     ],
+     "name": "Filton and Bradley Stoke (Labour)"
+    },
+    {
+     "value": [
+      22.2,
+      6
+     ],
+     "name": "Vale of Glamorgan (Labour)"
+    },
+    {
+     "value": [
+      23.0,
+      6
+     ],
+     "name": "East Thanet (Labour)"
+    },
+    {
+     "value": [
+      23.6,
+      6
+     ],
+     "name": "Brent East (Labour)"
+    },
+    {
+     "value": [
+      24.0,
+      6
+     ],
+     "name": "Brent West (Labour)"
+    },
+    {
+     "value": [
+      24.1,
+      6
+     ],
+     "name": "Truro and Falmouth (Labour)"
+    },
+    {
+     "value": [
+      24.4,
+      6
+     ],
+     "name": "Reading West and Mid Berkshire (Labour)"
+    },
+    {
+     "value": [
+      24.6,
+      6
+     ],
+     "name": "Warwick and Leamington (Labour)"
+    },
+    {
+     "value": [
+      24.8,
+      6
+     ],
+     "name": "Southend East and Rochford (Labour)"
+    },
+    {
+     "value": [
+      25.8,
+      6
+     ],
+     "name": "Suffolk Coastal (Labour)"
+    },
+    {
+     "value": [
+      26.8,
+      6
+     ],
+     "name": "Eltham and Chislehurst (Labour)"
+    },
+    {
+     "value": [
+      28.5,
+      6
+     ],
+     "name": "Earley and Woodley (Labour)"
+    },
+    {
+     "value": [
+      30.8,
+      6
+     ],
+     "name": "Enfield North (Labour)"
+    },
+    {
+     "value": [
+      31.3,
+      6
+     ],
+     "name": "Croydon West (Labour)"
+    },
+    {
+     "value": [
+      32.0,
+      6
+     ],
+     "name": "Lewisham East (Labour)"
+    },
+    {
+     "value": [
+      32.3,
+      6
+     ],
+     "name": "Leyton and Wanstead (Labour)"
+    },
+    {
+     "value": [
+      33.5,
+      6
+     ],
+     "name": "Clapham and Brixton Hill (Labour)"
+    },
+    {
+     "value": [
+      39.7,
+      6
+     ],
+     "name": "Bristol North West (Labour)"
+    },
+    {
+     "value": [
+      41.6,
+      6
+     ],
+     "name": "Chipping Barnet (Labour)"
+    },
+    {
+     "value": [
+      46.0,
+      6
+     ],
+     "name": "Finchley and Golders Green (Labour)"
+    }
+   ],
+   "z": 2
+  },
+  {
+   "type": "scatter",
+   "name": "Average",
+   "symbol": "diamond",
+   "symbolSize": 15,
+   "itemStyle": {
+    "color": "#1b3b41",
+    "borderColor": "#fff",
+    "borderWidth": 2
+   },
+   "data": [
+    {
+     "value": [
+      17.9,
+      0
+     ],
+     "name": "Plaid Cymru average"
+    },
+    {
+     "value": [
+      27.4,
+      1
+     ],
+     "name": "Green average"
+    },
+    {
+     "value": [
+      15.0,
+      2
+     ],
+     "name": "Reform average"
+    },
+    {
+     "value": [
+      12.5,
+      3
+     ],
+     "name": "Independent average"
+    },
+    {
+     "value": [
+      28.6,
+      4
+     ],
+     "name": "Lib Dem average"
+    },
+    {
+     "value": [
+      23.3,
+      5
+     ],
+     "name": "Conservative average"
+    },
+    {
+     "value": [
+      17.6,
+      6
+     ],
+     "name": "Labour average"
+    }
+   ],
+   "z": 4
+  },
+  {
+   "type": "line",
+   "name": "England and Wales",
+   "data": [
+    [
+     20.3,
+     -0.6
+    ],
+    [
+     20.3,
+     6.6
+    ]
+   ],
+   "symbol": "none",
+   "lineStyle": {
+    "color": "#4a5254",
+    "width": 1.5,
+    "type": "dashed"
+   },
+   "silent": true,
+   "z": 1
+  }
+ ]
+}
