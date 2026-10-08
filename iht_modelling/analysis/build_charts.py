@@ -17,9 +17,9 @@ from lib.config import OUTPUT
 from analysis.scatter_data import OUT_PATH as SCATTER
 
 ROOT = Path(__file__).resolve().parents[2]
-WEB = ROOT / "code" / "web"
+WEB = Path(__file__).resolve().parents[1] / "web"
 BUILD = ROOT / ".tmp" / "build" / "constituency"
-CHARTS = ROOT / "code" / "charts"
+CHARTS = Path(__file__).resolve().parents[1] / "charts"
 
 # Bump asset versions when output changes; published files are cached for a year.
 VERSION = 12

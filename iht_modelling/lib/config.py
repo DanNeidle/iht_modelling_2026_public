@@ -17,7 +17,9 @@ WAS_DIR = DOCS / "was"
 
 # Keep generated data separate from source evidence.
 BUILD = PROJECT_ROOT / ".tmp" / "build"
-OUTPUT = PROJECT_ROOT / "code" / "output"
+# The code folder is "code/" in the project and "iht_modelling/" in the public repository, so find it from this file rather than by name.
+CODE_DIR = Path(__file__).resolve().parents[1]
+OUTPUT = CODE_DIR / "output"
 
 for _d in (BUILD, OUTPUT):
     _d.mkdir(parents=True, exist_ok=True)

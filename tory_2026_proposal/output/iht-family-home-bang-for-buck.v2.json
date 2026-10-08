@@ -1,0 +1,328 @@
+{
+  "backgroundColor": "#ffffff",
+  "aria": {
+    "enabled": true,
+    "decal": {
+      "show": false
+    },
+    "label": {
+      "enabled": true,
+      "description": "A horizontal bar chart comparing the pounds of annual GDP boost per pound of tax cut for different tax cuts. The Conservative proposal to exempt the family home from inheritance tax is among the lowest, alongside hospitality VAT, and is highlighted."
+    }
+  },
+  "textStyle": {
+    "fontFamily": "Arial, Helvetica, sans-serif"
+  },
+  "title": [
+    {
+      "text": "Tax cuts: bang for the buck",
+      "left": "50%",
+      "textAlign": "center",
+      "top": 10,
+      "textStyle": {
+        "fontSize": 20,
+        "fontWeight": 700,
+        "color": "#111827"
+      }
+    },
+    {
+      "text": "£ of annual GDP boost per £1 cost of tax cut",
+      "left": "50%",
+      "textAlign": "center",
+      "top": 38,
+      "textStyle": {
+        "fontSize": 12,
+        "fontWeight": "normal",
+        "color": "#4B5563"
+      }
+    }
+  ],
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    },
+    "confine": true
+  },
+  "_tpaTooltip": {
+    "header": "{name}",
+    "template": "{series}: £{y:0.00} annual GDP boost per £1",
+    "skipNull": true
+  },
+  "grid": {
+    "left": "2%",
+    "right": "10%",
+    "top": 86,
+    "bottom": "6%",
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "value",
+    "min": 0,
+    "max": 5,
+    "interval": 1,
+    "axisLabel": {
+      "formatter": "£{value}.00"
+    },
+    "splitLine": {
+      "lineStyle": {
+        "color": "#E5E7EB"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "category",
+    "axisLabel": {
+      "fontSize": 11,
+      "color": "#111827"
+    },
+    "axisTick": {
+      "show": false
+    },
+    "data": [
+      "10% hospitality VAT rate",
+      "Conservatives: no IHT on the family home",
+      "Reform's tax-free overtime",
+      "Universities UK: no employer NI for under-25s",
+      "Raise the personal allowance",
+      "Cut basic rate of income tax 0.85p",
+      "Abolish the apprenticeship levy",
+      "Cut Universal Credit taper from 55% to ~45%",
+      "Cut employer NI by 0.55p",
+      "Cut employee NI by 1.1p",
+      "Raise employer NI threshold to £6,500",
+      "Abolish High Income Child Benefit Charge",
+      "Cut residential stamp duty by ~half",
+      "Extend full expensing to leased assets and structures",
+      "Abolish £100k personal-allowance taper",
+      "Abolish stamp duty on shares"
+    ]
+  },
+  "series": [
+    {
+      "name": "Annual GDP boost per £1 of tax cut",
+      "type": "bar",
+      "barMaxWidth": 20,
+      "label": {
+        "show": true,
+        "position": "right",
+        "color": "#111827",
+        "fontSize": 11,
+        "formatter": "£{c}"
+      },
+      "emphasis": {
+        "focus": "series"
+      },
+      "data": [
+        {
+          "value": 0.04,
+          "name": "10% hospitality VAT rate",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.04"
+          },
+          "cost": 13.0,
+          "gdpLow": 0.0,
+          "gdpHigh": 0.5
+        },
+        {
+          "value": 0.04,
+          "name": "Conservatives: no IHT on the family home",
+          "itemStyle": {
+            "color": "#D1495B"
+          },
+          "label": {
+            "formatter": "£0.04"
+          },
+          "cost": 7.0,
+          "gdpLow": 0.0,
+          "gdpHigh": 0.3
+        },
+        {
+          "value": 0.07,
+          "name": "Reform's tax-free overtime",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.07"
+          },
+          "cost": 13.5,
+          "gdpLow": 0.2,
+          "gdpHigh": 1.0
+        },
+        {
+          "value": 0.2,
+          "name": "Universities UK: no employer NI for under-25s",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.20"
+          },
+          "cost": 6.0,
+          "gdpLow": 0.3,
+          "gdpHigh": 1.2
+        },
+        {
+          "value": 0.29,
+          "name": "Raise the personal allowance",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.29"
+          },
+          "cost": 23.0,
+          "gdpLow": 0.0,
+          "gdpHigh": 6.7
+        },
+        {
+          "value": 0.33,
+          "name": "Cut basic rate of income tax 0.85p",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.33"
+          },
+          "cost": 6.0,
+          "gdpLow": 0.4,
+          "gdpHigh": 2.0
+        },
+        {
+          "value": 0.42,
+          "name": "Abolish the apprenticeship levy",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.42"
+          },
+          "cost": 4.0,
+          "gdpLow": 0.3,
+          "gdpHigh": 1.7
+        },
+        {
+          "value": 0.5,
+          "name": "Cut Universal Credit taper from 55% to ~45%",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.50"
+          },
+          "cost": 6.0,
+          "gdpLow": 0.6,
+          "gdpHigh": 3.0
+        },
+        {
+          "value": 0.53,
+          "name": "Cut employer NI by 0.55p",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.53"
+          },
+          "cost": 6.0,
+          "gdpLow": 1.1,
+          "gdpHigh": 3.2
+        },
+        {
+          "value": 0.57,
+          "name": "Cut employee NI by 1.1p",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.57"
+          },
+          "cost": 6.0,
+          "gdpLow": 0.9,
+          "gdpHigh": 3.4
+        },
+        {
+          "value": 0.58,
+          "name": "Raise employer NI threshold to £6,500",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.58"
+          },
+          "cost": 6.0,
+          "gdpLow": 1.2,
+          "gdpHigh": 3.5
+        },
+        {
+          "value": 0.6,
+          "name": "Abolish High Income Child Benefit Charge",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.60"
+          },
+          "cost": 1.5,
+          "gdpLow": 0.1,
+          "gdpHigh": 0.9
+        },
+        {
+          "value": 0.8,
+          "name": "Cut residential stamp duty by ~half",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£0.80"
+          },
+          "cost": 6.0,
+          "gdpLow": 1.2,
+          "gdpHigh": 4.8
+        },
+        {
+          "value": 1.0,
+          "name": "Extend full expensing to leased assets and structures",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£1.00"
+          },
+          "cost": 3.0,
+          "gdpLow": 1.0,
+          "gdpHigh": 3.0
+        },
+        {
+          "value": 1.67,
+          "name": "Abolish £100k personal-allowance taper",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£1.67"
+          },
+          "cost": 3.0,
+          "gdpLow": 1.0,
+          "gdpHigh": 5.0
+        },
+        {
+          "value": 4.47,
+          "name": "Abolish stamp duty on shares",
+          "itemStyle": {
+            "color": "#2563EB"
+          },
+          "label": {
+            "formatter": "£4.47"
+          },
+          "cost": 3.8,
+          "gdpLow": 5.0,
+          "gdpHigh": 17.0
+        }
+      ]
+    }
+  ]
+}

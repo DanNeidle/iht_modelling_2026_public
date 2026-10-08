@@ -1,0 +1,130 @@
+{
+  "backgroundColor": "#ffffff",
+  "aria": {
+    "enabled": true,
+    "decal": {
+      "show": false
+    },
+    "label": {
+      "enabled": true,
+      "description": "Bar chart of the share of the Conservative inheritance tax cut by wealth rank of households aged 65 and over."
+    }
+  },
+  "textStyle": {
+    "fontFamily": "Arial, Helvetica, sans-serif"
+  },
+  "title": [
+    {
+      "text": "Who gets the tax cut?",
+      "left": "50%",
+      "textAlign": "center",
+      "top": 10,
+      "textStyle": {
+        "fontSize": 20,
+        "fontWeight": 700,
+        "color": "#111827"
+      }
+    }
+  ],
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    },
+    "confine": true
+  },
+  "_tpaTooltip": {
+    "header": "{name}",
+    "template": "{series}: {y:0.0}%",
+    "skipNull": true
+  },
+  "grid": {
+    "left": "2%",
+    "right": "12%",
+    "top": 60,
+    "bottom": "6%",
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "value",
+    "axisLabel": {
+      "formatter": "{value}%"
+    },
+    "splitLine": {
+      "lineStyle": {
+        "color": "#E5E7EB"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "category",
+    "inverse": true,
+    "data": [
+      "Richest 1%",
+      "Next 4% (top 5%)",
+      "Next 5% (top 10%)",
+      "Next 10% (top 20%)",
+      "Next 30% (top half)",
+      "Bottom half"
+    ],
+    "axisLabel": {
+      "fontSize": 11,
+      "color": "#111827"
+    },
+    "axisTick": {
+      "show": false
+    }
+  },
+  "series": [
+    {
+      "name": "Share of the giveaway, by wealth rank of pensioner households",
+      "type": "bar",
+      "barMaxWidth": 26,
+      "data": [
+        {
+          "value": 8.0,
+          "itemStyle": {
+            "color": "#D1495B"
+          }
+        },
+        {
+          "value": 32.6,
+          "itemStyle": {
+            "color": "#D1495B"
+          }
+        },
+        {
+          "value": 28.2,
+          "itemStyle": {
+            "color": "#D1495B"
+          }
+        },
+        {
+          "value": 20.9,
+          "itemStyle": {
+            "color": "#D1495B"
+          }
+        },
+        {
+          "value": 10.2,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 0.1,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        }
+      ],
+      "label": {
+        "show": true,
+        "position": "right",
+        "color": "#111827",
+        "fontSize": 11,
+        "formatter": "{c}%"
+      }
+    }
+  ]
+}

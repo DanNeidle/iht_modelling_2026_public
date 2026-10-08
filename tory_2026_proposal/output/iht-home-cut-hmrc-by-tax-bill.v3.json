@@ -1,0 +1,144 @@
+{
+  "backgroundColor": "#ffffff",
+  "aria": {
+    "enabled": true,
+    "decal": {
+      "show": false
+    },
+    "label": {
+      "enabled": true,
+      "description": "Bar chart from HMRC data of the share of the home exemption's cost going to estates in each band of current tax bill."
+    }
+  },
+  "textStyle": {
+    "fontFamily": "Arial, Helvetica, sans-serif"
+  },
+  "title": [
+    {
+      "text": "Who gets the tax cut?",
+      "left": "50%",
+      "textAlign": "center",
+      "top": 10,
+      "textStyle": {
+        "fontSize": 20,
+        "fontWeight": 700,
+        "color": "#111827"
+      }
+    }
+  ],
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    },
+    "confine": true
+  },
+  "_tpaTooltip": {
+    "header": "{name}",
+    "template": "{series}: {y:0.0}%",
+    "skipNull": true
+  },
+  "grid": {
+    "left": "2%",
+    "right": "12%",
+    "top": 60,
+    "bottom": "6%",
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "value",
+    "axisLabel": {
+      "formatter": "{value}%"
+    },
+    "splitLine": {
+      "lineStyle": {
+        "color": "#E5E7EB"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "category",
+    "inverse": true,
+    "data": [
+      "Under £25k",
+      "£25k to £50k",
+      "£50k to £100k",
+      "£100k to £200k",
+      "£200k to £300k",
+      "£300k to £500k",
+      "£500k to £1m",
+      "Over £1m"
+    ],
+    "axisLabel": {
+      "fontSize": 11,
+      "color": "#111827"
+    },
+    "axisTick": {
+      "show": false
+    }
+  },
+  "series": [
+    {
+      "name": "Share of the home exemption giveaway, by estate's current inheritance tax bill (HMRC data)",
+      "type": "bar",
+      "barMaxWidth": 26,
+      "data": [
+        {
+          "value": 1.1,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 2.9,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 8.0,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 15.9,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 11.9,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 18.0,
+          "itemStyle": {
+            "color": "#D1495B"
+          }
+        },
+        {
+          "value": 19.5,
+          "itemStyle": {
+            "color": "#D1495B"
+          }
+        },
+        {
+          "value": 22.7,
+          "itemStyle": {
+            "color": "#D1495B"
+          }
+        }
+      ],
+      "label": {
+        "show": true,
+        "position": "right",
+        "color": "#111827",
+        "fontSize": 11,
+        "formatter": "{c}%"
+      }
+    }
+  ]
+}

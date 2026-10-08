@@ -1,0 +1,174 @@
+{
+  "baseline_annual_tax": 12301844281.715498,
+  "housing": {
+    "owners_with_descendants": 6242041.14227517,
+    "pen_all": {
+      "0": 1483771.5734371338,
+      "50000": 1171275.3401100193,
+      "100000": 882935.8328325448,
+      "median": 133879.20391999997
+    },
+    "pen_half": {
+      "0": 838782.2270681656,
+      "50000": 624743.5410881877,
+      "100000": 396588.0491092887,
+      "median": 94872.0
+    },
+    "remaining_payer_households": 459262.9092152949,
+    "remaining_financial": 775465970619.3812,
+    "remaining_taxable": 733744950898.8708,
+    "all_financial": 1842912983961.5063,
+    "portfolio": [
+      {
+        "share": 0.075,
+        "moved": 57257267371.016174,
+        "per_household": 124672.09134926007,
+        "share_all_financial": 0.031068893577349786
+      },
+      {
+        "share": 0.15,
+        "moved": 112716032985.30167,
+        "per_household": 245428.12128654233,
+        "share_all_financial": 0.061161885540036987
+      },
+      {
+        "share": 0.3,
+        "moved": 218625182141.8431,
+        "per_household": 476034.91977044294,
+        "share_all_financial": 0.11863022510801824
+      }
+    ]
+  },
+  "fixed_cost": [
+    {
+      "fee": 5000,
+      "take_up": 0.25,
+      "model_switchers": 8382.032516974537,
+      "offset_2029": 874139.6645731012
+    },
+    {
+      "fee": 5000,
+      "take_up": 0.5,
+      "model_switchers": 16764.065033949075,
+      "offset_2029": 1748279.3291462024
+    },
+    {
+      "fee": 10000,
+      "take_up": 0.25,
+      "model_switchers": 7304.0065058165665,
+      "offset_2029": 6490971.514179613
+    },
+    {
+      "fee": 10000,
+      "take_up": 0.5,
+      "model_switchers": 14608.013011633133,
+      "offset_2029": 12981943.028359227
+    },
+    {
+      "fee": 20000,
+      "take_up": 0.25,
+      "model_switchers": 5125.417717311725,
+      "offset_2029": 16271944.178924372
+    },
+    {
+      "fee": 20000,
+      "take_up": 0.5,
+      "model_switchers": 10250.83543462345,
+      "offset_2029": 32543888.357848745
+    }
+  ],
+  "retention": [
+    {
+      "old_downsizing_relief_share": 0.0,
+      "tax_at_risk_2023_24": 256743070.05135652,
+      "tax_at_risk_2029_scale": 500338557.56807745,
+      "eligible_homes_per_year": 1890.7867541615726,
+      "eligible_home_values": 1138744840.7611125,
+      "response_50pct_2029": 250169278.78403872,
+      "response_80pct_2029": 400270846.05446196
+    },
+    {
+      "old_downsizing_relief_share": 0.5,
+      "tax_at_risk_2023_24": 347219794.22990155,
+      "tax_at_risk_2029_scale": 676658773.9615436,
+      "eligible_homes_per_year": 2857.0670001323747,
+      "eligible_home_values": 1720696582.49338,
+      "response_50pct_2029": 338329386.9807718,
+      "response_80pct_2029": 541327019.1692349
+    },
+    {
+      "old_downsizing_relief_share": 1.0,
+      "tax_at_risk_2023_24": 437695771.83985543,
+      "tax_at_risk_2029_scale": 852977535.4489359,
+      "eligible_homes_per_year": 3824.000000000001,
+      "eligible_home_values": 2303041451.652981,
+      "response_50pct_2029": 426488767.72446793,
+      "response_80pct_2029": 682382028.3591487
+    }
+  ],
+  "downsizing": {
+    "low_2023": 125000000.0,
+    "high_2023": 326666666.6666666,
+    "low_2029": 243598862.01991466,
+    "high_2029": 636605026.0787102
+  },
+  "article_totals": {
+    "basis": "2029-30 receipts scale; GBP billions",
+    "published_components": {
+      "static": [
+        7,
+        9
+      ],
+      "retention": [
+        0.25,
+        0.7
+      ],
+      "downsizing": [
+        0.25,
+        0.65
+      ],
+      "portfolio": [
+        0.3,
+        0.6
+      ],
+      "marginal_offset": [
+        0.02,
+        0.07
+      ]
+    },
+    "total_from_published_components": [
+      7.7299999999999995,
+      10.93
+    ],
+    "total_with_unrounded_housing": [
+      7.723768140803953,
+      10.898987054437859
+    ],
+    "headline": [
+      7.7,
+      10.9
+    ],
+    "fixed_cost_sensitivity_included": false
+  },
+  "housing_flows": {
+    "retained_homes_per_year": [
+      945.3933770807863,
+      3059.2000000000007
+    ],
+    "fewer_downsizes_per_year": [
+      3019.616017445396,
+      3942.276467220378
+    ],
+    "combined_postponed_sales_per_year": [
+      3965.0093945261824,
+      7001.476467220378
+    ],
+    "note": "Postponed sales; no permanent transaction-loss estimate"
+  },
+  "alternative": {
+    "budget_bn": 7.7,
+    "nrb": 883758.544921875,
+    "rate": 0.17518248175182483,
+    "reduction": 0.5620437956204379
+  }
+}

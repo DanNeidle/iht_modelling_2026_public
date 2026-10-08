@@ -1,5 +1,7 @@
 # The data you need, and where to get it
 
+All paths below are relative to the top of the repository. Put the files in a `docs/` folder there.
+
 ## 1. The survey
 
 **Wealth and Assets Survey, round 8**, study 7215. Register with the [UK Data Service](https://datacatalogue.ukdataservice.ac.uk/studies/study/7215) and download it.
@@ -11,25 +13,25 @@ was_round_8_hhold_eul_may_2025_230525.sav
 was_round_8_person_eul_may_2025_230525.sav
 ```
 
-`code/acquire/download_was.py` will fetch them for you once the study is released to your account, or you can just click the link.
+`iht_modelling/acquire/download_was.py` will fetch them for you once the study is released to your account, or you can just click the link.
 
 ## 2. HMRC inheritance tax statistics
 
 Seven tables from the annual release, saved as `.ods` in `docs/hmrc/`:
 
 ```
-table_12_1_final.ods    liabilities: estates, tax and deaths
-table_12_2_final.ods    assets in taxpaying estates
-table_12_3_final.ods    estates by net estate band
-table_12_4_final.ods    tax by net estate band
-table_12_5_final.ods    estates and tax by age and sex
-table_12_8_final.ods    reliefs and exemptions claimed
-table_12_9_final.ods    taxpaying estates by region
+table_12_1_final.ods    numbers of estates and tax, by size of estate
+table_12_2_final.ods    exemptions and reliefs claimed
+table_12_3_final.ods    assets, by size of estate and by size of tax bill
+table_12_4_final.ods    assets, by age, sex and marital status
+table_12_5_final.ods    as 12.4, taxpaying estates only
+table_12_8_final.ods    tax, by region
+table_12_9_final.ods    taxpaying estates, by parliamentary constituency
 ```
 
-`code/acquire/hmrc_tables.py` reads these
+`iht_modelling/acquire/hmrc_tables.py` reads these
 
-The constituency figures come from the same release. HMRC publishes taxpaying estates by parliamentary constituency in a supplementary table; save it wherever the release puts it and point `code/analysis/constituency.py` at it if the filename changes.
+Table 12.9 is published on the pre-2024 constituency boundaries. Section 4 below explains how we move it onto today's seats.
 
 ## 3. ONS, in `docs/ons/`
 
@@ -46,7 +48,7 @@ The constituency figures come from the same release. HMRC publishes taxpaying es
 | `boe_millennium.xlsx` | Bank of England "millennium of macroeconomic data", used for consumer prices before the ONS series starts | [Bank of England research datasets](https://www.bankofengland.co.uk/statistics/research-datasets) |
 
 
-`code/acquire/price_indices.py` downloads the ONS CPI series (D7BT) itself, probably.
+`iht_modelling/acquire/price_indices.py` downloads the ONS CPI series (D7BT) itself.
 
 ## 4. Geography, in `docs/geo/`
 
@@ -59,19 +61,19 @@ lsoa21_centroids.json    LSOA 2021 population-weighted centroids
 lsoa_pop65.csv           LSOA population aged 65 and over
 ```
 
-The two boundary files are both needed because HMRC publishes on the old seats and we report on the new ones. `code/analysis/crosswalk.py` builds a population-weighted crosswalk between them from the 35,672 small areas, which is what the centroids and the LSOA population are for.
+The two boundary files are both needed because HMRC publishes on the old seats and we report on the new ones. `iht_modelling/analysis/crosswalk.py` builds a population-weighted crosswalk between them from the 35,672 small areas, which is what the centroids and the LSOA population are for.
 
 ## 5. Fetched for you
 
-- **Constituency population by age**, from NOMIS. `code/acquire/constituency_population.py`
-- **2024 general election results**, from Parliament's Members API. `code/acquire/election_results.py`
-- **ONS CPI series D7BT**, from the ONS time series API. `code/acquire/price_indices.py`
+- **Constituency population by age**, from NOMIS. `iht_modelling/acquire/constituency_population.py`
+- **2024 general election results**, from Parliament's Members API. `iht_modelling/acquire/election_results.py`
+- **ONS CPI series D7BT**, from the ONS time series API. `iht_modelling/acquire/price_indices.py`
 
 The election script makes two calls per seat across 650 seats, so it is nice and polite, and therefore slow. Please don't be tempted to speed it up. 
 
 ## Once you have it
 
 ```bash
-python3 code/run_all.py
+python3 iht_modelling/run_all.py
 ```
 

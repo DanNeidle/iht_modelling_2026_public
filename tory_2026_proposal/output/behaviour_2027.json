@@ -1,0 +1,351 @@
+{
+  "rules": "2027-28 (pensions inside the estate)",
+  "price_basis": "April 2027",
+  "totals": {
+    "stock": {
+      "baseline_tax": 796223354942.3142,
+      "post_reform_tax": 425894881474.1859,
+      "baseline_payers": 2057564.0429202989,
+      "post_reform_payers": 768087.2314022275,
+      "post_reform_taxable_excess": 1064737203685.4595,
+      "financial_wealth_of_post_reform_payers": 1029495326712.1953,
+      "portfolio_eligible_financial_wealth": 775465970619.3817
+    },
+    "annual_deaths": {
+      "baseline_tax": 12301844281.715498,
+      "post_reform_tax": 4477658777.22931,
+      "baseline_payers": 51859.069940418485,
+      "post_reform_payers": 14336.471335094695,
+      "post_reform_taxable_excess": 11194146943.073265,
+      "financial_wealth_of_post_reform_payers": 13209558332.97041,
+      "portfolio_eligible_financial_wealth": 9348439021.808537
+    }
+  },
+  "marginal_transitions": [
+    {
+      "old_rate": 0.0,
+      "new_rate": 0.0,
+      "estates": 302997.69658894686,
+      "baseline_payers": 0.0,
+      "post_reform_payers": 0.0,
+      "baseline_tax": 0.0,
+      "post_reform_tax": 0.0
+    },
+    {
+      "old_rate": 0.4,
+      "new_rate": 0.0,
+      "estates": 36330.74233674713,
+      "baseline_payers": 36330.74233674713,
+      "post_reform_payers": 0.0,
+      "baseline_tax": 3849870468.3578553,
+      "post_reform_tax": 0.0
+    },
+    {
+      "old_rate": 0.4,
+      "new_rate": 0.4,
+      "estates": 13570.626071338611,
+      "baseline_payers": 13570.626071338611,
+      "post_reform_payers": 13570.626071338611,
+      "baseline_tax": 7343194793.345556,
+      "post_reform_tax": 4230925085.1229067
+    },
+    {
+      "old_rate": 0.6,
+      "new_rate": 0.0,
+      "estates": 1191.856268576687,
+      "baseline_payers": 1191.856268576687,
+      "post_reform_payers": 0.0,
+      "baseline_tax": 639406378.6350033,
+      "post_reform_tax": 0.0
+    },
+    {
+      "old_rate": 0.6,
+      "new_rate": 0.4,
+      "estates": 765.8452637560774,
+      "baseline_payers": 765.8452637560774,
+      "post_reform_payers": 765.8452637560774,
+      "baseline_tax": 469372641.3770879,
+      "post_reform_tax": 246733692.10640046
+    }
+  ],
+  "portfolio": [
+    {
+      "weight_basis": "stock",
+      "share_moved": 0.075,
+      "tax_loss": 22902906948.406487,
+      "share_of_remaining_tax": 0.053775961967729505,
+      "share_of_baseline_tax": 0.0287644249647334
+    },
+    {
+      "weight_basis": "stock",
+      "share_moved": 0.1,
+      "tax_loss": 30379148973.222027,
+      "share_of_remaining_tax": 0.07133015749817916,
+      "share_of_baseline_tax": 0.03815405411641432
+    },
+    {
+      "weight_basis": "stock",
+      "share_moved": 0.15,
+      "tax_loss": 45086413194.1207,
+      "share_of_remaining_tax": 0.10586277308160945,
+      "share_of_baseline_tax": 0.05662533372609646
+    },
+    {
+      "weight_basis": "stock",
+      "share_moved": 0.2,
+      "tax_loss": 59519635001.67383,
+      "share_of_remaining_tax": 0.13975193783887116,
+      "share_of_baseline_tax": 0.07475243552229886
+    },
+    {
+      "weight_basis": "stock",
+      "share_moved": 0.3,
+      "tax_loss": 87450072856.73726,
+      "share_of_remaining_tax": 0.20533252842588515,
+      "share_of_baseline_tax": 0.10983108233879042
+    },
+    {
+      "weight_basis": "stock",
+      "share_moved": 0.5,
+      "tax_loss": 139563565141.02652,
+      "share_of_remaining_tax": 0.3276948637136548,
+      "share_of_baseline_tax": 0.17528192846231921
+    },
+    {
+      "weight_basis": "annual_deaths",
+      "share_moved": 0.075,
+      "tax_loss": 270033653.1052772,
+      "share_of_remaining_tax": 0.060306885035212275,
+      "share_of_baseline_tax": 0.02195066421923696
+    },
+    {
+      "weight_basis": "annual_deaths",
+      "share_moved": 0.1,
+      "tax_loss": 356351897.67074275,
+      "share_of_remaining_tax": 0.07958442467365646,
+      "share_of_baseline_tax": 0.028967355585893445
+    },
+    {
+      "weight_basis": "annual_deaths",
+      "share_moved": 0.15,
+      "tax_loss": 527399319.9820672,
+      "share_of_remaining_tax": 0.11778461607304787,
+      "share_of_baseline_tax": 0.0428715652632632
+    },
+    {
+      "weight_basis": "annual_deaths",
+      "share_moved": 0.2,
+      "tax_loss": 695800768.1424114,
+      "share_of_remaining_tax": 0.15539387942664082,
+      "share_of_baseline_tax": 0.056560687341539136
+    },
+    {
+      "weight_basis": "annual_deaths",
+      "share_moved": 0.3,
+      "tax_loss": 1016786007.9602805,
+      "share_of_remaining_tax": 0.2270798331331197,
+      "share_of_baseline_tax": 0.08265313595877262
+    },
+    {
+      "weight_basis": "annual_deaths",
+      "share_moved": 0.5,
+      "tax_loss": 1583905509.9070942,
+      "share_of_remaining_tax": 0.3537351970547396,
+      "share_of_baseline_tax": 0.12875350017730983
+    }
+  ],
+  "offsets": [
+    {
+      "method": "marginal",
+      "responsive_base": "ordinary_nonhome",
+      "elasticity": 0.0,
+      "extra_wealth": 0.0,
+      "tax_offset": 0.0,
+      "tax_offset_from_static_nonpayers": 0.0,
+      "new_payers": 0.0,
+      "share_of_baseline_tax": 0.0,
+      "share_of_remaining_tax": 0.0,
+      "illustrative_2029_30_gbp": 0.0
+    },
+    {
+      "method": "marginal",
+      "responsive_base": "ordinary_nonhome",
+      "elasticity": 0.1,
+      "extra_wealth": 749264778.998469,
+      "tax_offset": 19782305.510474436,
+      "tax_offset_from_static_nonpayers": 3.860552928938158e-11,
+      "new_payers": 0.0,
+      "share_of_baseline_tax": 0.001608076403623261,
+      "share_of_remaining_tax": 0.004418002017276392,
+      "illustrative_2029_30_gbp": 22030646.729638677
+    },
+    {
+      "method": "marginal",
+      "responsive_base": "ordinary_nonhome",
+      "elasticity": 0.2,
+      "extra_wealth": 1485820809.3017647,
+      "tax_offset": 40417832.44016807,
+      "tax_offset_from_static_nonpayers": 34634.68161619276,
+      "new_payers": 62.163861209696705,
+      "share_of_baseline_tax": 0.0032855100027759238,
+      "share_of_remaining_tax": 0.009026554824969904,
+      "illustrative_2029_30_gbp": 45011487.038030155
+    },
+    {
+      "method": "marginal",
+      "responsive_base": "ordinary_nonhome",
+      "elasticity": 0.3,
+      "extra_wealth": 2197497253.5483108,
+      "tax_offset": 62490793.4939177,
+      "tax_offset_from_static_nonpayers": 654243.8400475602,
+      "new_payers": 72.82343762721422,
+      "share_of_baseline_tax": 0.005079790644627095,
+      "share_of_remaining_tax": 0.01395613122904953,
+      "illustrative_2029_30_gbp": 69593131.8313912
+    },
+    {
+      "method": "marginal",
+      "responsive_base": "financial",
+      "elasticity": 0.0,
+      "extra_wealth": 0.0,
+      "tax_offset": 0.0,
+      "tax_offset_from_static_nonpayers": 0.0,
+      "new_payers": 0.0,
+      "share_of_baseline_tax": 0.0,
+      "share_of_remaining_tax": 0.0,
+      "illustrative_2029_30_gbp": 0.0
+    },
+    {
+      "method": "marginal",
+      "responsive_base": "financial",
+      "elasticity": 0.1,
+      "extra_wealth": 556605998.1188781,
+      "tax_offset": 14848176.100969555,
+      "tax_offset_from_static_nonpayers": 3.860552928938158e-11,
+      "new_payers": 0.0,
+      "share_of_baseline_tax": 0.001206987811009665,
+      "share_of_remaining_tax": 0.003316057975761459,
+      "illustrative_2029_30_gbp": 16535733.010832412
+    },
+    {
+      "method": "marginal",
+      "responsive_base": "financial",
+      "elasticity": 0.2,
+      "extra_wealth": 1101875715.1178095,
+      "tax_offset": 30310765.927751403,
+      "tax_offset_from_static_nonpayers": 5.349807369630239e-10,
+      "new_payers": 0.0,
+      "share_of_baseline_tax": 0.0024639204686408658,
+      "share_of_remaining_tax": 0.006769333581623906,
+      "illustrative_2029_30_gbp": 33755710.42037986
+    },
+    {
+      "method": "marginal",
+      "responsive_base": "financial",
+      "elasticity": 0.3,
+      "extra_wealth": 1635564828.5538585,
+      "tax_offset": 46428439.58078948,
+      "tax_offset_from_static_nonpayers": 15245.81776425388,
+      "new_payers": 10.659576417517508,
+      "share_of_baseline_tax": 0.003774103989415399,
+      "share_of_remaining_tax": 0.01036890971167716,
+      "illustrative_2029_30_gbp": 51705224.65499096
+    },
+    {
+      "method": "average",
+      "responsive_base": "proportional",
+      "elasticity": 0.0,
+      "extra_wealth": 0.0,
+      "tax_offset": 0.0,
+      "tax_offset_from_static_nonpayers": 0.0,
+      "new_payers": 0.0,
+      "share_of_baseline_tax": 0.0,
+      "share_of_remaining_tax": 0.0,
+      "illustrative_2029_30_gbp": 0.0
+    },
+    {
+      "method": "average",
+      "responsive_base": "proportional",
+      "elasticity": 0.1,
+      "extra_wealth": 1007950399.7620492,
+      "tax_offset": 117202612.41842267,
+      "tax_offset_from_static_nonpayers": 997813.2012710836,
+      "new_payers": 291.4594157343319,
+      "share_of_baseline_tax": 0.009527239146785778,
+      "share_of_remaining_tax": 0.026174976310040628,
+      "illustrative_2029_30_gbp": 130523176.31096515
+    },
+    {
+      "method": "average",
+      "responsive_base": "proportional",
+      "elasticity": 0.2,
+      "extra_wealth": 2015900799.5240984,
+      "tax_offset": 235462399.36377943,
+      "tax_offset_from_static_nonpayers": 3052800.929475887,
+      "new_payers": 535.0671211912129,
+      "share_of_baseline_tax": 0.019140414556681747,
+      "share_of_remaining_tax": 0.05258605246143367,
+      "illustrative_2029_30_gbp": 262223679.42653993
+    },
+    {
+      "method": "average",
+      "responsive_base": "proportional",
+      "elasticity": 0.3,
+      "extra_wealth": 3023851199.2861443,
+      "tax_offset": 357187170.7460886,
+      "tax_offset_from_static_nonpayers": 8572773.094633367,
+      "new_payers": 1415.4554150495544,
+      "share_of_baseline_tax": 0.02903525378523802,
+      "share_of_remaining_tax": 0.07977096704253762,
+      "illustrative_2029_30_gbp": 397782976.8577609
+    },
+    {
+      "method": "average",
+      "responsive_base": "financial",
+      "elasticity": 0.0,
+      "extra_wealth": 0.0,
+      "tax_offset": 0.0,
+      "tax_offset_from_static_nonpayers": 0.0,
+      "new_payers": 0.0,
+      "share_of_baseline_tax": 0.0,
+      "share_of_remaining_tax": 0.0,
+      "illustrative_2029_30_gbp": 0.0
+    },
+    {
+      "method": "average",
+      "responsive_base": "financial",
+      "elasticity": 0.1,
+      "extra_wealth": 1007950399.7620492,
+      "tax_offset": 189192076.27715582,
+      "tax_offset_from_static_nonpayers": 3588491.1754676416,
+      "new_payers": 885.2793215760439,
+      "share_of_baseline_tax": 0.015379163639581764,
+      "share_of_remaining_tax": 0.04225245506407799,
+      "illustrative_2029_30_gbp": 210694541.86227018
+    },
+    {
+      "method": "average",
+      "responsive_base": "financial",
+      "elasticity": 0.2,
+      "extra_wealth": 2015900799.5240984,
+      "tax_offset": 401891858.11721736,
+      "tax_offset_from_static_nonpayers": 30684687.91384047,
+      "new_payers": 2133.443893233258,
+      "share_of_baseline_tax": 0.03266923632861766,
+      "share_of_remaining_tax": 0.08975490945424394,
+      "illustrative_2029_30_gbp": 447568537.7020619
+    },
+    {
+      "method": "average",
+      "responsive_base": "financial",
+      "elasticity": 0.3,
+      "extra_wealth": 3023851199.2861443,
+      "tax_offset": 631709320.5538555,
+      "tax_offset_from_static_nonpayers": 74898565.24878973,
+      "new_payers": 3404.4633798593964,
+      "share_of_baseline_tax": 0.05135078172732027,
+      "share_of_remaining_tax": 0.1410802725224063,
+      "illustrative_2029_30_gbp": 703505709.6642877
+    }
+  ]
+}

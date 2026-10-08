@@ -1,0 +1,137 @@
+{
+  "backgroundColor": "#ffffff",
+  "aria": {
+    "enabled": true,
+    "decal": {
+      "show": false
+    },
+    "label": {
+      "enabled": true,
+      "description": "Bar chart of the average saving per taxpaying estate in each estate size band."
+    }
+  },
+  "textStyle": {
+    "fontFamily": "Arial, Helvetica, sans-serif"
+  },
+  "title": [
+    {
+      "text": "How much each estate saves",
+      "left": "50%",
+      "textAlign": "center",
+      "top": 10,
+      "textStyle": {
+        "fontSize": 20,
+        "fontWeight": 700,
+        "color": "#111827"
+      }
+    }
+  ],
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    },
+    "confine": true
+  },
+  "_tpaTooltip": {
+    "header": "{name}",
+    "template": "{series}: £{y:0}k",
+    "skipNull": true
+  },
+  "grid": {
+    "left": "2%",
+    "right": "12%",
+    "top": 60,
+    "bottom": "6%",
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "value",
+    "axisLabel": {
+      "formatter": "£{value}k"
+    },
+    "splitLine": {
+      "lineStyle": {
+        "color": "#E5E7EB"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "category",
+    "inverse": true,
+    "data": [
+      "£500k to £1m",
+      "£1m to £1.5m",
+      "£1.5m to £2m",
+      "£2m to £3m",
+      "£3m to £5m",
+      "£5m to £10m",
+      "Over £10m"
+    ],
+    "axisLabel": {
+      "fontSize": 11,
+      "color": "#111827"
+    },
+    "axisTick": {
+      "show": false
+    }
+  },
+  "series": [
+    {
+      "name": "Average inheritance tax saving per estate that currently pays, by size of estate (£ thousands)",
+      "type": "bar",
+      "barMaxWidth": 26,
+      "data": [
+        {
+          "value": 63,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 116,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 256,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 425,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 763,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 488,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 513,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        }
+      ],
+      "label": {
+        "show": true,
+        "position": "right",
+        "color": "#111827",
+        "fontSize": 11,
+        "formatter": "£{c}k"
+      }
+    }
+  ]
+}

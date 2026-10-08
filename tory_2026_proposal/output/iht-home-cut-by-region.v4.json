@@ -1,0 +1,165 @@
+{
+  "backgroundColor": "#ffffff",
+  "aria": {
+    "enabled": true,
+    "decal": {
+      "show": false
+    },
+    "label": {
+      "enabled": true,
+      "description": "Bar chart of the share of the Conservative inheritance tax cut going to each region of Great Britain. London and the South East, highlighted, take about seven tenths."
+    }
+  },
+  "textStyle": {
+    "fontFamily": "Arial, Helvetica, sans-serif"
+  },
+  "title": [
+    {
+      "text": "Where the tax cut goes",
+      "left": "50%",
+      "textAlign": "center",
+      "top": 10,
+      "textStyle": {
+        "fontSize": 20,
+        "fontWeight": 700,
+        "color": "#111827"
+      }
+    }
+  ],
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    },
+    "confine": true
+  },
+  "_tpaTooltip": {
+    "header": "{name}",
+    "template": "{series}: {y:0.0}%",
+    "skipNull": true
+  },
+  "grid": {
+    "left": "2%",
+    "right": "12%",
+    "top": 60,
+    "bottom": "6%",
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "value",
+    "axisLabel": {
+      "formatter": "{value}%"
+    },
+    "splitLine": {
+      "lineStyle": {
+        "color": "#E5E7EB"
+      }
+    }
+  },
+  "yAxis": {
+    "type": "category",
+    "inverse": true,
+    "data": [
+      "London",
+      "South East",
+      "East of England",
+      "North West",
+      "South West",
+      "West Midlands",
+      "East Midlands",
+      "Yorkshire and the Humber",
+      "Wales",
+      "Scotland",
+      "North East"
+    ],
+    "axisLabel": {
+      "fontSize": 11,
+      "color": "#111827"
+    },
+    "axisTick": {
+      "show": false
+    }
+  },
+  "series": [
+    {
+      "name": "Share of the inheritance tax giveaway, by region",
+      "type": "bar",
+      "barMaxWidth": 26,
+      "data": [
+        {
+          "value": 41.4,
+          "itemStyle": {
+            "color": "#D1495B"
+          }
+        },
+        {
+          "value": 27.5,
+          "itemStyle": {
+            "color": "#D1495B"
+          }
+        },
+        {
+          "value": 8.4,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 5.5,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 5.4,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 3.0,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 2.6,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 2.5,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 2.0,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 1.6,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        },
+        {
+          "value": 0.1,
+          "itemStyle": {
+            "color": "#2563EB"
+          }
+        }
+      ],
+      "label": {
+        "show": true,
+        "position": "right",
+        "color": "#111827",
+        "fontSize": 11,
+        "formatter": "{c}%"
+      }
+    }
+  ]
+}
