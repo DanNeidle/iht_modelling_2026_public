@@ -1,0 +1,8 @@
+{
+  "standalone_public_layout_reproduces_all_reference_results": true,
+  "package_tests_passed": 6,
+  "rounds": [
+    7,
+    8
+  ]
+}

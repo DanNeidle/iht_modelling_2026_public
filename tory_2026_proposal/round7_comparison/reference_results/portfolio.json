@@ -1,0 +1,26 @@
+[
+  {
+    "round": 7,
+    "fraction_of_financial_wealth": 0.075,
+    "stock_wealth_shift_gbp": 51437502664.05917,
+    "annual_loss_at_13_7bn_receipts_gbp": 345699988.78977966
+  },
+  {
+    "round": 7,
+    "fraction_of_financial_wealth": 0.15,
+    "stock_wealth_shift_gbp": 101166761273.35715,
+    "annual_loss_at_13_7bn_receipts_gbp": 679407036.0212709
+  },
+  {
+    "round": 8,
+    "fraction_of_financial_wealth": 0.075,
+    "stock_wealth_shift_gbp": 57257267371.016174,
+    "annual_loss_at_13_7bn_receipts_gbp": 300724099.8035464
+  },
+  {
+    "round": 8,
+    "fraction_of_financial_wealth": 0.15,
+    "stock_wealth_shift_gbp": 112716032985.30168,
+    "annual_loss_at_13_7bn_receipts_gbp": 587340444.106706
+  }
+]

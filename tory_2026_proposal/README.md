@@ -89,3 +89,7 @@ If you find an error, or think an assumption is wrong, please tell us. The most 
 ## Licence
 
 MIT. See [`LICENCE`](../LICENCE). Copyright (c) 2026 Tax Policy Associates Ltd.
+
+## Round 7 sensitivity, added 9 October 2026
+
+The [survey-round comparison](round7_comparison/README.md) supports `--round 7`, `--round 8` and `--round both`. It holds the model assumptions and target dates constant, records the historical back-test, and compares the housing incentives and portfolio scenarios. The April 2027 static cost falls from 63.6% of receipts with Round 8 to 58.5% with Round 7 (£8.71bn to £8.02bn on the same £13.7bn scale). The [aggregate reference results](round7_comparison/reference_results/summary.csv) are included; household-level survey outputs are not.

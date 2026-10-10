@@ -1,0 +1,40 @@
+[
+  {
+    "round": 7,
+    "home_only_cost_share": 0.41110927297467165,
+    "threshold_only_cost_share": 0.10367467721447751,
+    "package_cost_share": 0.5853695523886269,
+    "london_south_east_share_of_annual_saving": 0.6599269852340799,
+    "mean_assets_of_baseline_taxpaying_estates_gbp": {
+      "residence_value": 683134.2557354122,
+      "financial_wealth": 439623.05034754483,
+      "dc_pension_wealth": 31059.742801252196,
+      "physical_wealth": 63213.09381510609,
+      "business_agricultural": 59474.49571971374,
+      "property_wealth": 804554.2508537753
+    },
+    "households_with_selling_or_downsizing_penalty": {
+      "sell": 1491476.091107229,
+      "halve": 837719.1306772452
+    }
+  },
+  {
+    "round": 8,
+    "home_only_cost_share": 0.4598405043518202,
+    "threshold_only_cost_share": 0.11246745356479652,
+    "package_cost_share": 0.6360172771911483,
+    "london_south_east_share_of_annual_saving": 0.6884368720091787,
+    "mean_assets_of_baseline_taxpaying_estates_gbp": {
+      "residence_value": 693664.1731069013,
+      "financial_wealth": 444469.9985989165,
+      "dc_pension_wealth": 30781.985773695666,
+      "physical_wealth": 51555.01806416229,
+      "business_agricultural": 51163.563570969665,
+      "property_wealth": 749531.4213461853
+    },
+    "households_with_selling_or_downsizing_penalty": {
+      "sell": 1483771.5734371338,
+      "halve": 838782.2270681656
+    }
+  }
+]
